@@ -14355,7 +14355,7 @@ AdminOnly.MouseButton1Down:connect(function()
 		ComingSoon_2.Visible = true
 	elseif whitelist.Text == "Quantavio"  then
 		PayFor50RBX.Visible = true
-	elseif whitelist.Text == "ImZ1ne"  then
+	elseif whitelist.Text == "Z1ne"  then
 		PayFor50RBX.Visible = true
 	end
 
