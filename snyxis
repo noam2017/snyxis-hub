@@ -14668,11 +14668,13 @@ Load.MouseButton1Down:connect(function()
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
+		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "ImZ1ne"  then
-		whitelist.Text = "welcome Basic User"
-		wait(2)
-		Whitelisted.Visible = false
-		Open.Visible = true
+               whitelist.Text = "welcome Basic User"
+               wait(2)
+               Whitelisted.Visible = false
+               Open.Visible = true
+	       PayFor50RBX.Visible = true
 
 end
 
