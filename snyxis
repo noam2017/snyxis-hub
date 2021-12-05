@@ -14321,7 +14321,7 @@ AdminOnly.MouseButton1Down:connect(function()
 		ComingSoon_2.Visible = true
 	elseif whitelist.Text == "Ultimet_Frayzer"  then
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false 
 	elseif whitelist.Text == "ROYALM150NINJA"  then
 		PayFor50RBX.Visible = true 
 	elseif whitelist.Text == "UnusualIUsername"  then
@@ -14586,7 +14586,7 @@ Load.MouseButton1Down:connect(function()
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false 
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "ROYALM150NINJA"  then
