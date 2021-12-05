@@ -14311,7 +14311,7 @@ AdminOnly.MouseButton1Down:connect(function()
 	TrainScripts.Visible = false
 	About.Visible = false 
 	AdminOnly_2.Visible = true
-	PlayerScripts.Visible = false
+	PlayerScripts_2.Visible = false
 	AdminScriptsGUi.Visible = false
 	Aboutpage.Visible = true 
 	PlayerScripts.Visible = true 
