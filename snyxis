@@ -14342,6 +14342,9 @@ AdminOnly.MouseButton1Down:connect(function()
 	elseif whitelist.Text == "xXxProfesorGhostxXx"  then
 		PayFor50RBX.Visible = false
 		ComingSoon_2.Visible = true 
+	elseif whitelist.Text == "LumxAlt"  then
+		PayFor50RBX.Visible = false
+		ComingSoon_2.Visible = true 
 	elseif whitelist.Text == "ObsidianPheonixx"  then
 		PayFor50RBX.Visible = true 
 	elseif whitelist.Text == "DanielworldTester"  then
@@ -14656,6 +14659,13 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "xXxProfesorGhostxXx"  then
+		whitelist.Text = "welcome Admin User"
+		wait(2)
+		PayFor50RBX.Visible = false
+		ComingSoon_2.Visible = true 
+		Whitelisted.Visible = false
+		Open.Visible = true
+	elseif whitelist.Text == "LumxAlt"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
