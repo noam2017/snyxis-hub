@@ -14222,7 +14222,7 @@ ComingSoon.BorderSizePixel = 2
 ComingSoon.Position = UDim2.new(0.0326086953, 0, 0.346793413, 0)
 ComingSoon.Size = UDim2.new(0, 491, 0, 72)
 ComingSoon.Font = Enum.Font.SourceSans
-ComingSoon.Text = "ComingSoon"
+ComingSoon.Text = "ComingSoonOnAdmin"
 ComingSoon.TextColor3 = Color3.fromRGB(0, 0, 255)
 ComingSoon.TextSize = 42.000
 
@@ -14552,7 +14552,7 @@ ComingSoon_2.BackgroundTransparency = 0.100
 ComingSoon_2.Size = UDim2.new(0, 559, 0, 465)
 ComingSoon_2.Visible = false
 ComingSoon_2.Font = Enum.Font.SourceSans
-ComingSoon_2.Text = "16H Today Colors"
+ComingSoon_2.Text = "32% end"
 ComingSoon_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 ComingSoon_2.TextSize = 50.000
 ComingSoon_2.TextStrokeTransparency = 0.000
