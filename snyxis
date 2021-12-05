@@ -14363,6 +14363,8 @@ AdminOnly.MouseButton1Down:connect(function()
 		elseif whitelist.Text == "ALTDanielworldALT"  then
 	        ComingSoon_2.Visible = true
 		PayFor50RBX.Visible = false
+	elseif whitelist.Text == "finbar179"  then
+		PayFor50RBX.Visible = true
 	end
 
 end)
@@ -14696,6 +14698,12 @@ Load.MouseButton1Down:connect(function()
 		ComingSoon_2.Visible = true
 		Whitelisted.Visible = false
 		Open.Visible = true
+	elseif whitelist.Text == "finbar179"  then
+		whitelist.Text = "welcome Basic User"
+		wait(2)
+		Whitelisted.Visible = false
+		Open.Visible = true
+		PayFor50RBX.Visible = true
 
 end
 
