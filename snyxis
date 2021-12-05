@@ -14652,6 +14652,8 @@ Load.MouseButton1Down:connect(function()
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
+		PayFor50RBX.Visible = false
+		ComingSoon_2.Visible = true 
 	elseif whitelist.Text == "DanielworldTester"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
