@@ -14322,6 +14322,9 @@ AdminOnly.MouseButton1Down:connect(function()
 	elseif whitelist.Text == "Ultimet_Frayzer"  then
 		PayFor50RBX.Visible = false
 		ComingSoon_2.Visible = true
+	elseif whitelist.Text == "SnyxisAlt"  then
+		PayFor50RBX.Visible = false
+		ComingSoon_2.Visible = true
 	elseif whitelist.Text == "ROYALM150NINJA"  then
 		PayFor50RBX.Visible = true 
 	elseif whitelist.Text == "UnusualIUsername"  then
@@ -14590,6 +14593,13 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "Ultimet_Frayzer"  then
+		whitelist.Text = "welcome Admin User"
+		wait(2)
+		PayFor50RBX.Visible = false
+		ComingSoon_2.Visible = true
+		Whitelisted.Visible = false
+		Open.Visible = true
+	elseif whitelist.Text == "SnyxisAlt"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
