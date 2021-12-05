@@ -14368,6 +14368,8 @@ AdminOnly.MouseButton1Down:connect(function()
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "ZluqYT25"  then
 		PayFor50RBX.Visible = true
+	elseif whitelist.Text == "Ghostly_Fratgment"  then
+		PayFor50RBX.Visible = true
 	end
 
 end)
@@ -14710,6 +14712,12 @@ Load.MouseButton1Down:connect(function()
 		Open.Visible = true
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "ZluqYT25"  then
+		whitelist.Text = "welcome Basic User"
+		wait(2)
+		Whitelisted.Visible = false
+		Open.Visible = true
+		PayFor50RBX.Visible = true
+	elseif whitelist.Text == "Ghostly_Fragment"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
