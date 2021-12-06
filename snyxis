@@ -14378,6 +14378,9 @@ AdminOnly.MouseButton1Down:connect(function()
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "Ghostly_Fratgment"  then
 		PayFor50RBX.Visible = true
+	elseif whitelist.Text == "Just4Reaper"  then
+	        ComingSoon_2.Visible = true
+		PayFor50RBX.Visible = false
 	end
 
 end)
