@@ -14363,6 +14363,8 @@ AdminOnly.MouseButton1Down:connect(function()
 		ComingSoon_2.Visible = true
 	elseif whitelist.Text == "Quantavio"  then
 		PayFor50RBX.Visible = true
+	elseif whitelist.Text == "Quantavio_alt"  then
+		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "ImZ1ne"  then
 		PayFor50RBX.Visible = true
         elseif whitelist.Text == "Denmar250"  then
@@ -14701,6 +14703,12 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "Quantavio"  then
+		whitelist.Text = "welcome Basic User"
+		wait(2)
+		Whitelisted.Visible = false
+		Open.Visible = true
+		PayFor50RBX.Visible = true
+	elseif whitelist.Text == "Quantavio_alt"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
