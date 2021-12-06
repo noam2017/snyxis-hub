@@ -14694,7 +14694,7 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "Just4Reaper"  then
-		whitelist.Text = "welcome Admin User"
+		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
