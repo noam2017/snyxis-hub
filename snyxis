@@ -1,6 +1,7 @@
 -- Gui to Lua
 -- Version: 3.2
 
+
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -14446,15 +14447,6 @@ COLOR_2.Font = Enum.Font.SourceSans
 COLOR_2.Text = ""
 COLOR_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 COLOR_2.TextSize = 14.000
-COLOR_2.MouseButton1Down:connect(function()
-      Gui.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
-      About.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
-      Logo.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
-      AdminScriptsGui.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
-      PlayerScripts_2.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
-      TrainScripts.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
-      AdminOnly_2.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
-end)
 
 COLOR_3.Name = "COLOR"
 COLOR_3.Parent = AdminOnly_2
