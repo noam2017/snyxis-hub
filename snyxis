@@ -14318,10 +14318,10 @@ AdminOnly.MouseButton1Down:connect(function()
 	TrainingScripts.Visible = true 
 	if whitelist.Text == "slt51perohackeado2"  then
 		PayFor50RBX.Visible = false 
-		ComingSoon_2.Visible = true
+		ComingSoon_2.Visible = false
 	elseif whitelist.Text == "Ultimet_Frayzer"  then
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true
+		ComingSoon_2.Visible = false
 	elseif whitelist.Text == "SnyxisAlt"  then
 		PayFor50RBX.Visible = false
 		ComingSoon_2.Visible = true
@@ -14612,7 +14612,7 @@ Load.MouseButton1Down:connect(function()
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true
+		ComingSoon_2.Visible = false
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "SnyxisAlt"  then
