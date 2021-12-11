@@ -14324,7 +14324,7 @@ AdminOnly.MouseButton1Down:connect(function()
 		ComingSoon_2.Visible = false
 	elseif whitelist.Text == "SnyxisAlt"  then
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true
+		ComingSoon_2.Visible = false
 	elseif whitelist.Text == "ROYALM150NINJA"  then
 		PayFor50RBX.Visible = true 
 	elseif whitelist.Text == "UnusualIUsername"  then
@@ -14339,17 +14339,17 @@ AdminOnly.MouseButton1Down:connect(function()
 		PayFor50RBX.Visible = true 
 	elseif whitelist.Text == "Mr_LumiYtALT"  then
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false
 	elseif whitelist.Text == "xXxProfesorGhostxXx"  then
 		PayFor50RBX.Visible = false
 		ComingSoon_2.Visible = true 
 	elseif whitelist.Text == "LumxAlt"  then
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false
 	elseif whitelist.Text == "ObsidianPheonixx"  then
 		PayFor50RBX.Visible = true 
 	elseif whitelist.Text == "DanielworldTester"  then
-	        ComingSoon_2.Visible = true
+	        ComingSoon_2.Visible = false
 		PayFor50RBX.Visible = false 
 	elseif whitelist.Text == "YxngCiiber"  then
 		PayFor50RBX.Visible = false
@@ -14360,7 +14360,7 @@ AdminOnly.MouseButton1Down:connect(function()
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "FxllenIDemon"  then
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true
+		ComingSoon_2.Visible = false
 	elseif whitelist.Text == "Quantavio"  then
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "Quantavio_alt"  then
@@ -14370,7 +14370,7 @@ AdminOnly.MouseButton1Down:connect(function()
         elseif whitelist.Text == "Denmar250"  then
 		PayFor50RBX.Visible = true
 		elseif whitelist.Text == "ALTDanielworldALT"  then
-	        ComingSoon_2.Visible = true
+	        ComingSoon_2.Visible = false
 		PayFor50RBX.Visible = false
 	elseif whitelist.Text == "finbar179"  then
 		PayFor50RBX.Visible = true
@@ -14379,7 +14379,7 @@ AdminOnly.MouseButton1Down:connect(function()
 	elseif whitelist.Text == "Ghostly_Fratgment"  then
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "Just4Reaper"  then
-	        ComingSoon_2.Visible = true
+	        ComingSoon_2.Visible = false
 		PayFor50RBX.Visible = false
 	end
 
@@ -14619,21 +14619,21 @@ Load.MouseButton1Down:connect(function()
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true
+		ComingSoon_2.Visible = false
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "ROYALM150NINJA"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false 
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "UnusualIUsername"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false 
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "sacha1456"  then
@@ -14660,21 +14660,21 @@ Load.MouseButton1Down:connect(function()
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "xXxProfesorGhostxXx"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "LumxAlt"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "ObsidianPheonixx"  then
@@ -14688,12 +14688,12 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false
 	elseif whitelist.Text == "DanielworldTester"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true
+		ComingSoon_2.Visible = false
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "housinscheme1"  then
@@ -14707,12 +14707,12 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false
 	elseif whitelist.Text == "09azAz_09az"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "Quantavio"  then
@@ -14743,7 +14743,7 @@ Load.MouseButton1Down:connect(function()
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true
+		ComingSoon_2.Visible = false
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "finbar179"  then
