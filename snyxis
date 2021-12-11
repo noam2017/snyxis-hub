@@ -62,8 +62,8 @@ local CloseTrain = Instance.new("TextButton")
 local CloseGui = Instance.new("TextButton")
 local AdminOnly = Instance.new("TextButton")
 local AdminOnly_2 = Instance.new("Frame")
-local FastPP = Instance.new("TextLabel")
-local FastBt_2 = Instance.new("TextLabel")
+local FastPP = Instance.new("TextButton")
+local FastBt_2 = Instance.new("TextButton")
 local BackroundColor = Instance.new("TextLabel")
 local COLOR = Instance.new("TextLabel")
 local COLOR_2 = Instance.new("TextButton")
@@ -14402,10 +14402,18 @@ FastPP.BorderSizePixel = 2
 FastPP.Position = UDim2.new(0.075134173, 0, 0.0300429184, 0)
 FastPP.Size = UDim2.new(0, 205, 0, 58)
 FastPP.Font = Enum.Font.SourceSans
-FastPP.Text = "FastBt"
+FastPP.Text = "FastFS"
 FastPP.TextColor3 = Color3.fromRGB(0, 0, 127)
 FastPP.TextSize = 32.000
 FastPP.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+FastPP.MouseButton1Down:connect(function()
+     local TrainFS = coroutine.create(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+FS6"})
+    end)
+end)
+coroutine.resume(TrainFS)
+end)
 
 FastBt_2.Name = "FastBt"
 FastBt_2.Parent = AdminOnly_2
@@ -14597,7 +14605,7 @@ Load.MouseButton1Down:connect(function()
 		whitelist.Text = "welcome Admin User"
 		wait(2)
 		PayFor50RBX.Visible = false
-		ComingSoon_2.Visible = true 
+		ComingSoon_2.Visible = false 
 		Whitelisted.Visible = false
 		Open.Visible = true
 	elseif whitelist.Text == "Ultimet_Frayzer"  then
