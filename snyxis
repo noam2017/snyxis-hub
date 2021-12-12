@@ -14384,6 +14384,8 @@ elseif whitelist.Text == "Querxnciaa"  then
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "rayyanj2010"  then
 		PayFor50RBX.Visible = true
+	elseif whitelist.Text == "hydradawn123"  then
+		PayFor50RBX.Visible = true
 		
 	
 	end
@@ -14782,6 +14784,12 @@ elseif whitelist.Text == "Querxnciaa"  then
 		Open.Visible = true
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "rayyanj2010"  then
+		whitelist.Text = "welcome Basic User"
+		wait(2)
+		Whitelisted.Visible = false
+		Open.Visible = true
+		PayFor50RBX.Visible = true
+	elseif whitelist.Text == "hydradawn123"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
