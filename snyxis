@@ -14380,6 +14380,8 @@ AdminOnly.MouseButton1Down:connect(function()
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "alanous54"  then
 		PayFor50RBX.Visible = true
+elseif whitelist.Text == "Querxnciaa"  then
+		PayFor50RBX.Visible = true
 	
 	end
 
@@ -14770,9 +14772,14 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+elseif whitelist.Text == "Querxnciaa"  then
+		whitelist.Text = "welcome Basic User"
+		wait(2)
+		Whitelisted.Visible = false
+		Open.Visible = true
+		PayFor50RBX.Visible = true
 
 end
-
 
 end)
 
