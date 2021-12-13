@@ -14386,11 +14386,14 @@ elseif whitelist.Text == "Querxnciaa"  then
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "hydradawn123"  then
 		PayFor50RBX.Visible = true
+elseif whitelist.Text == "TryingTOBe2001"  then
+		PayFor50RBX.Visible = true
 		
 	
 	end
 
 end)
+
 
 AdminOnly_2.Name = "AdminOnly"
 AdminOnly_2.Parent = Gui
@@ -14790,6 +14793,12 @@ elseif whitelist.Text == "Querxnciaa"  then
 		Open.Visible = true
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "hydradawn123"  then
+		whitelist.Text = "welcome Basic User"
+		wait(2)
+		Whitelisted.Visible = false
+		Open.Visible = true
+		PayFor50RBX.Visible = true
+elseif whitelist.Text == "TryingTOBe2001"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
