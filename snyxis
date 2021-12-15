@@ -14878,10 +14878,8 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		ComingSoon_2.Visible = false
 		Open.Visible = true
-		PayFor50RBX.Visible = true
+		PayFor50RBX.Visible = false
 		AdminOnly_2.Visible = false
-		FastPP.Visible = false
-		FastBt_2.Visible = false
 	elseif whitelist.Text == "alanous54"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
