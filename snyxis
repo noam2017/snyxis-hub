@@ -14678,11 +14678,13 @@ Load.MouseButton1Down:connect(function()
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "GELADS09"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "ZeroBrainCe1ls"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
@@ -14693,6 +14695,7 @@ Load.MouseButton1Down:connect(function()
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "Mr_LumiYtALT"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
@@ -14719,6 +14722,7 @@ Load.MouseButton1Down:connect(function()
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "YxngCiiber"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
@@ -14738,6 +14742,7 @@ Load.MouseButton1Down:connect(function()
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "Just4Reaper"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
@@ -14758,24 +14763,28 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "Quantavio_alt"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "ImZ1ne"  then
                whitelist.Text = "welcome Basic User"
                wait(2)
                Whitelisted.Visible = false
                Open.Visible = true
 	       PayFor50RBX.Visible = true
+	       AdminOnly_2.Visible = false
         elseif whitelist.Text == "Denmar250"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
                 PayFor50RBX.Visible = true
 		Whitelisted.Visible = false
 		Open.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "ALTDanielworldALT"  then
 		whitelist.Text = "welcome Admin User"
 		wait(2)
@@ -14783,18 +14792,21 @@ Load.MouseButton1Down:connect(function()
 		ComingSoon_2.Visible = false
 		Whitelisted.Visible = false
 		Open.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "finbar179"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "ZluqYT25"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "Ghostly_Fragment"  then
 		whitelist.Text = "welcome FakeAdmin User"
 		wait(2)
@@ -14808,36 +14820,42 @@ Load.MouseButton1Down:connect(function()
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 elseif whitelist.Text == "Querxnciaa"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "rayyanj2010"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "hydradawn123"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 elseif whitelist.Text == "TryingTOBe2001"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 	elseif whitelist.Text == "babo44123ALT"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
 		Open.Visible = true
 		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
 
 end
 
