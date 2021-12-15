@@ -14225,6 +14225,7 @@ ComingSoon.Font = Enum.Font.SourceSans
 ComingSoon.Text = "ComingSoonOnAdmin"
 ComingSoon.TextColor3 = Color3.fromRGB(0, 0, 255)
 ComingSoon.TextSize = 42.000
+ComingSoon.Visible = false
 
 Nothing.Name = "Nothing"
 Nothing.Parent = TrainScripts
@@ -14248,6 +14249,7 @@ FastFist.Font = Enum.Font.SourceSans
 FastFist.Text = "Fast Farm Fist"
 FastFist.TextColor3 = Color3.fromRGB(0, 0, 255)
 FastFist.TextSize = 38.000
+FastFist.Visible = false
 
 FastBt.Name = "Fast Bt"
 FastBt.Parent = TrainScripts
@@ -14260,6 +14262,7 @@ FastBt.Font = Enum.Font.SourceSans
 FastBt.Text = "Fast Farm Bt"
 FastBt.TextColor3 = Color3.fromRGB(0, 0, 255)
 FastBt.TextSize = 38.000
+FastBt.Visible = false
 
 CloseTrain.Name = "Close Train"
 CloseTrain.Parent = TrainScripts
