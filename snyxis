@@ -191,7 +191,7 @@ Infomisc_3.BackgroundTransparency = 1.000
 Infomisc_3.Position = UDim2.new(0.0144144148, 0, 0.651974142, 0)
 Infomisc_3.Size = UDim2.new(0, 538, 0, 125)
 Infomisc_3.Font = Enum.Font.SourceSans
-Infomisc_3.Text = "Pr :enable ALog :enable Im_Snyxis#7787"
+Infomisc_3.Text = "Pr :enable      ALog :enable       Im_Snyxis#7787"
 Infomisc_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Infomisc_3.TextSize = 32.000
 
