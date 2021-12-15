@@ -14423,6 +14423,13 @@ FastPP.TextColor3 = Color3.fromRGB(0, 0, 127)
 FastPP.TextSize = 32.000
 FastPP.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
 FastPP.MouseButton1Down:connect(function()
+
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-280,281,1008)
+			wait(2)
+			game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
+			wait(1)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+			
      local TrainFS = coroutine.create(function()
     game:GetService("RunService").Heartbeat:Connect(function()
         game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+FS6"})
@@ -14444,6 +14451,12 @@ FastBt_2.TextColor3 = Color3.fromRGB(0, 0, 127)
 FastBt_2.TextSize = 32.000
 FastBt_2.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
 FastBt_2.MouseButton1Down:connect(function()
+
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-280,281,1008)
+			wait(2)
+			game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
+			wait(1)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2557,5416,-498)
      local TrainPP = coroutine.create(function()
     game:GetService("RunService").Heartbeat:Connect(function()
         game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+PP6"})
