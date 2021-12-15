@@ -14237,6 +14237,7 @@ Nothing.Size = UDim2.new(0, 491, 0, 166)
 Nothing.Font = Enum.Font.SourceSans
 Nothing.TextColor3 = Color3.fromRGB(0, 0, 0)
 Nothing.TextSize = 14.000
+Nothing.Visible = false
 
 FastFist.Name = "Fast Fist"
 FastFist.Parent = TrainScripts
