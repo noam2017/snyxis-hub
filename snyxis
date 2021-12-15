@@ -14437,6 +14437,14 @@ FastBt_2.Text = "FastPP"
 FastBt_2.TextColor3 = Color3.fromRGB(0, 0, 127)
 FastBt_2.TextSize = 32.000
 FastBt_2.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+FastBT_2.MouseButton1Down:connect(function()
+     local TrainPP = coroutine.create(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+PP6"})
+    end)
+end)
+coroutine.resume(TrainPP)
+end)
 
 BackroundColor.Name = "Backround Color"
 BackroundColor.Parent = AdminOnly_2
