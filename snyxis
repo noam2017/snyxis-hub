@@ -14394,6 +14394,8 @@ elseif whitelist.Text == "TryingTOBe2001"  then
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "babo44123ALT"  then
 		PayFor50RBX.Visible = true
+	elseif whitelist.Text == "Master_Kral1232"  then
+		PayFor50RBX.Visible = true
 		
 	
 	end
@@ -14925,6 +14927,15 @@ elseif whitelist.Text == "TryingTOBe2001"  then
 		FastBt_2.Visible = false
 		FastPP.Visible = false
 	elseif whitelist.Text == "babo44123ALT"  then
+		whitelist.Text = "welcome Basic User"
+		wait(2)
+		Whitelisted.Visible = false
+		Open.Visible = true
+		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
+		FastBt_2.Visible = false
+                FastPP.Visible = false
+	elseif whitelist.Text == "Master_Kral1232"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
