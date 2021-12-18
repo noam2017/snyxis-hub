@@ -735,6 +735,17 @@ CloseAbout.TextColor3 = Color3.fromRGB(65, 255, 8)
 CloseAbout.TextSize = 32.000
 CloseAbout.TextStrokeColor3 = Color3.fromRGB(18, 71, 2)
 CloseAbout.TextWrapped = true
+CloseAbout.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false 
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = true
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
+
 
 InfosFrame.Name = "InfosFrame"
 InfosFrame.Parent = Gui
@@ -792,6 +803,16 @@ CloseInfosFrame.Text = "x"
 CloseInfosFrame.TextColor3 = Color3.fromRGB(65, 255, 8)
 CloseInfosFrame.TextSize = 32.000
 CloseInfosFrame.TextWrapped = true
+CloseInfosFrame.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false 
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = true
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 
 PlayerFrame.Name = "PlayerFrame"
@@ -958,6 +979,16 @@ ClosePlayerScripts.Font = Enum.Font.SourceSans
 ClosePlayerScripts.Text = "x"
 ClosePlayerScripts.TextColor3 = Color3.fromRGB(65, 255, 8)
 ClosePlayerScripts.TextSize = 32.000
+ClosePlayerScripts.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false 
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = true
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 TrainScriptsFrame.Name = "TrainScriptsFrame"
 TrainScriptsFrame.Parent = Gui
@@ -1016,6 +1047,16 @@ CloseTrainScripts.Font = Enum.Font.SourceSans
 CloseTrainScripts.Text = "x"
 CloseTrainScripts.TextColor3 = Color3.fromRGB(65, 255, 8)
 CloseTrainScripts.TextSize = 32.000
+CloseTrainScripts.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false 
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = true
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 LocalScriptsFrame.Name = "LocalScriptsFrame"
 LocalScriptsFrame.Parent = Gui
@@ -1104,6 +1145,16 @@ CloseLocalScripts.Font = Enum.Font.SourceSans
 CloseLocalScripts.Text = "x"
 CloseLocalScripts.TextColor3 = Color3.fromRGB(65, 255, 8)
 CloseLocalScripts.TextSize = 32.000
+CloseLocalScripts.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false 
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = true
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 RepScriptNoScript.Name = "Rep ScriptNoScript"
 RepScriptNoScript.Parent = LocalScriptsFrame
@@ -1285,6 +1336,16 @@ ClosePremium.Font = Enum.Font.SourceSans
 ClosePremium.Text = "x"
 ClosePremium.TextColor3 = Color3.fromRGB(65, 255, 8)
 ClosePremium.TextSize = 32.000
+ClosePremium.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false 
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = true
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 PayFor50Rbx.Name = "PayFor50Rbx"
 PayFor50Rbx.Parent = PremiumFrame
