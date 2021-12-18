@@ -1042,6 +1042,9 @@ Split.TextColor3 = Color3.fromRGB(65, 255, 8)
 Split.TextScaled = true
 Split.TextSize = 14.000
 Split.TextWrapped = true
+Split.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
+end)
 
 BlackHub.Name = "BlackHub"
 BlackHub.Parent = TrainScriptsFrame
@@ -1153,6 +1156,27 @@ RTX.TextColor3 = Color3.fromRGB(65, 255, 8)
 RTX.TextScaled = true
 RTX.TextSize = 14.000
 RTX.TextWrapped = true
+RTX.MouseButton1Down:connect(function()
+	-- Script made by Harryboharps
+	-- Shoutout to Claude
+
+	bloom = Instance.new("BloomEffect",game.Lighting) -- BLOOM Properties
+	bloom.Intensity = 1
+	bloom.Size = 56
+	bloom.Threshold = 0.5
+
+	blur = Instance.new("BlurEffect",game.Lighting) -- BLUR Properties
+	blur.Size = 0
+
+	color = Instance.new("ColorCorrectionEffect",game.Ligting) -- COLORCORRECTION Properties
+	color.TintColor = Color3.fromRGB(216,216,216)
+
+	rays = Instance.new("SunRaysEffect",game.Lighting) -- SUNRAYS Properties
+	rays.Intensity = 0.25
+	rays.Spread = 1
+
+	print("Shoutout to my cousin ben.")
+end)
 
 F1respawn.Name = "F1respawn"
 F1respawn.Parent = LocalScriptsFrame
@@ -1166,7 +1190,14 @@ F1respawn.TextColor3 = Color3.fromRGB(65, 255, 8)
 F1respawn.TextScaled = true
 F1respawn.TextSize = 14.000
 F1respawn.TextWrapped = true
-
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F1 then
+			game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
+			Wait(1.7)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(319,249,842)
+		end
+	end)
 CloseLocalScripts.Name = "Close LocalScripts"
 CloseLocalScripts.Parent = LocalScriptsFrame
 CloseLocalScripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1368,6 +1399,42 @@ FastFist.TextColor3 = Color3.fromRGB(255, 0, 0)
 FastFist.TextScaled = true
 FastFist.TextSize = 14.000
 FastFist.TextWrapped = true
+FastFist.MouseButton1Down:connect(function()
+
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-280,281,1008)
+	wait(2)
+	game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
+	wait(1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+
+	local TrainFS = coroutine.create(function()
+		game:GetService("RunService").Heartbeat:Connect(function()
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+FS6"})
+		end)
+	end)
+	coroutine.resume(TrainFS)
+	wait(1)
+	wait(0.5)local ba=Instance.new("ScreenGui")
+	local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+	local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+	ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+	ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+	ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,304,0,52)
+	ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk Kick Script"ca.TextColor3=Color3.new(0,1,1)
+	ca.TextSize=22;da.Parent=ca
+	da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+	da.Size=UDim2.new(0,304,0,107)_b.Parent=da
+	_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+	_b.Size=UDim2.new(0,304,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made by XxSwordmaster_2xX"
+	_b.TextColor3=Color3.new(1,1,1)_b.TextSize=20;ab.Parent=da
+	ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377379,0)
+	ab.Size=UDim2.new(0,304,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Script Started"
+	ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+	game:service'Players'.LocalPlayer.Idled:connect(function()
+		bb:CaptureController()bb:ClickButton2(Vector2.new())
+		ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end)
+
+end)
 
 FastPP.Name = "FastPP"
 FastPP.Parent = PremiumFrame
@@ -1381,6 +1448,41 @@ FastPP.TextColor3 = Color3.fromRGB(0, 0, 255)
 FastPP.TextScaled = true
 FastPP.TextSize = 14.000
 FastPP.TextWrapped = true
+FastPP.MouseButton1Down:connect(function()
+
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-280,281,1008)
+	wait(2)
+	game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
+	wait(1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2557,5416,-498)
+	local TrainPP = coroutine.create(function()
+		game:GetService("RunService").Heartbeat:Connect(function()
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+PP6"})
+		end)
+	end)
+	coroutine.resume(TrainPP)
+	wait(1)
+	wait(0.5)local ba=Instance.new("ScreenGui")
+	local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+	local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+	ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+	ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+	ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,304,0,52)
+	ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk Kick Script"ca.TextColor3=Color3.new(0,1,1)
+	ca.TextSize=22;da.Parent=ca
+	da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+	da.Size=UDim2.new(0,304,0,107)_b.Parent=da
+	_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+	_b.Size=UDim2.new(0,304,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made by XxSwordmaster_2xX"
+	_b.TextColor3=Color3.new(1,1,1)_b.TextSize=20;ab.Parent=da
+	ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377379,0)
+	ab.Size=UDim2.new(0,304,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Script Started"
+	ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+	game:service'Players'.LocalPlayer.Idled:connect(function()
+		bb:CaptureController()bb:ClickButton2(Vector2.new())
+		ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end)
+
+end)
 
 ClosePremium.Name = "ClosePremium"
 ClosePremium.Parent = PremiumFrame
