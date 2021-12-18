@@ -14400,6 +14400,8 @@ elseif whitelist.Text == "TryingTOBe2001"  then
 		PayFor50RBX.Visible = true
 	elseif whitelist.Text == "NightStylePlay"  then
 		PayFor50RBX.Visible = true
+	elseif whitelist.Text == "HyPanake"  then
+		PayFor50RBX.Visible = true
 		
 	
 	end
@@ -14958,6 +14960,15 @@ elseif whitelist.Text == "TryingTOBe2001"  then
 		FastBt_2.Visible = false
                 FastPP.Visible = false
 	elseif whitelist.Text == "NightStylePlay"  then
+		whitelist.Text = "welcome Basic User"
+		wait(2)
+		Whitelisted.Visible = false
+		Open.Visible = true
+		PayFor50RBX.Visible = true
+		AdminOnly_2.Visible = false
+		FastBt_2.Visible = false
+                FastPP.Visible = false
+	elseif whitelist.Text == "HyPanake"  then
 		whitelist.Text = "welcome Basic User"
 		wait(2)
 		Whitelisted.Visible = false
