@@ -898,6 +898,10 @@ LoopReapOn.Font = Enum.Font.SourceSans
 LoopReapOn.Text = ""
 LoopReapOn.TextColor3 = Color3.fromRGB(0, 0, 0)
 LoopReapOn.TextSize = 14.000
+LoopReapOn.MouseButton1Down:connect(function()
+	LoopReapOn.BackgroundColor3 = Color3.fromRGB(65, 255, 8)
+	LoopReapOff.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+end)
 
 REAPALLON.Name = "REAPALLON"
 REAPALLON.Parent = PlayerFrame
@@ -908,6 +912,10 @@ REAPALLON.Font = Enum.Font.SourceSans
 REAPALLON.Text = ""
 REAPALLON.TextColor3 = Color3.fromRGB(0, 0, 0)
 REAPALLON.TextSize = 14.000
+REAPALLON.MouseButton1Down:connect(function()
+	REAPALLON.BackgroundColor3 = Color3.fromRGB(65, 255, 8)
+	REAPALLOFF.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+end)
 
 Loophellon.Name = "Loophell on"
 Loophellon.Parent = PlayerFrame
@@ -918,6 +926,10 @@ Loophellon.Font = Enum.Font.SourceSans
 Loophellon.Text = ""
 Loophellon.TextColor3 = Color3.fromRGB(0, 0, 0)
 Loophellon.TextSize = 14.000
+Loophellon.MouseButton1Down:connect(function()
+	Loophellon.BackgroundColor3 = Color3.fromRGB(65, 255, 8)
+	Loopoff.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+end)
 
 PPALLON.Name = "PPALLON"
 PPALLON.Parent = PlayerFrame
@@ -928,6 +940,10 @@ PPALLON.Font = Enum.Font.SourceSans
 PPALLON.Text = ""
 PPALLON.TextColor3 = Color3.fromRGB(0, 0, 0)
 PPALLON.TextSize = 14.000
+PPALLON.MouseButton1Down:connect(function()
+	PPALLON.BackgroundColor3 = Color3.fromRGB(65, 255, 8)
+	PPALLOFF.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+end)
 
 PPALLOFF.Name = "PPALLOFF"
 PPALLOFF.Parent = PlayerFrame
@@ -938,6 +954,10 @@ PPALLOFF.Font = Enum.Font.SourceSans
 PPALLOFF.Text = ""
 PPALLOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
 PPALLOFF.TextSize = 14.000
+PPALLOFF.MouseButton1Down:connect(function()
+	PPALLON.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+	PPALLOFF.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+end)
 
 REAPALLOFF.Name = "REAPALLOFF"
 REAPALLOFF.Parent = PlayerFrame
@@ -948,6 +968,10 @@ REAPALLOFF.Font = Enum.Font.SourceSans
 REAPALLOFF.Text = ""
 REAPALLOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
 REAPALLOFF.TextSize = 14.000
+REAPALLOFF.MouseButton1Down:connect(function()
+	REAPALLON.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+	REAPALLOFF.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+end)
 
 Loopoff.Name = "Loop off"
 Loopoff.Parent = PlayerFrame
@@ -958,6 +982,10 @@ Loopoff.Font = Enum.Font.SourceSans
 Loopoff.Text = ""
 Loopoff.TextColor3 = Color3.fromRGB(0, 0, 0)
 Loopoff.TextSize = 14.000
+Loopoff.MouseButton1Down:connect(function()
+	Loophellon.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+	Loopoff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+end)
 
 LoopReapOff.Name = "LoopReapOff"
 LoopReapOff.Parent = PlayerFrame
@@ -968,6 +996,10 @@ LoopReapOff.Font = Enum.Font.SourceSans
 LoopReapOff.Text = ""
 LoopReapOff.TextColor3 = Color3.fromRGB(0, 0, 0)
 LoopReapOff.TextSize = 14.000
+LoopReapOff.MouseButton1Down:connect(function()
+	LoopReapOn.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+	LoopReapOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+end)
 
 ClosePlayerScripts.Name = "Close PlayerScripts"
 ClosePlayerScripts.Parent = PlayerFrame
@@ -1178,6 +1210,10 @@ RepScriptOn.Font = Enum.Font.SourceSans
 RepScriptOn.Text = ""
 RepScriptOn.TextColor3 = Color3.fromRGB(0, 0, 0)
 RepScriptOn.TextSize = 14.000
+RepScriptOn.MouseButton1Down:connect(function()
+	RepScriptOn.BackgroundColor3 = Color3.fromRGB(65, 255, 8)
+	RepScriptOff.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+end)
 
 RepScriptOff.Name = "RepScriptOff"
 RepScriptOff.Parent = LocalScriptsFrame
@@ -1188,6 +1224,10 @@ RepScriptOff.Font = Enum.Font.SourceSans
 RepScriptOff.Text = ""
 RepScriptOff.TextColor3 = Color3.fromRGB(0, 0, 0)
 RepScriptOff.TextSize = 14.000
+RepScriptOff.MouseButton1Down:connect(function()
+	RepScriptOn.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+	RepScriptOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+end)
 
 Instantrespawnnoscript.Name = "Instantrespawn no script"
 Instantrespawnnoscript.Parent = LocalScriptsFrame
@@ -1211,6 +1251,10 @@ respawnOn.Font = Enum.Font.SourceSans
 respawnOn.Text = ""
 respawnOn.TextColor3 = Color3.fromRGB(0, 0, 0)
 respawnOn.TextSize = 14.000
+respawnOn.MouseButton1Down:connect(function()
+	respawnOn.BackgroundColor3 = Color3.fromRGB(65, 255, 8)
+	RespawnOff.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+end)
 
 RespawnOff.Name = "RespawnOff"
 RespawnOff.Parent = LocalScriptsFrame
@@ -1221,6 +1265,10 @@ RespawnOff.Font = Enum.Font.SourceSans
 RespawnOff.Text = ""
 RespawnOff.TextColor3 = Color3.fromRGB(0, 0, 0)
 RespawnOff.TextSize = 14.000
+RespawnOff.MouseButton1Down:connect(function()
+	respawnOn.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+	RespawnOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+end)
 
 AutoAttacknoscript.Name = "Auto Attack no script"
 AutoAttacknoscript.Parent = LocalScriptsFrame
@@ -1244,6 +1292,10 @@ AttackOn.Font = Enum.Font.SourceSans
 AttackOn.Text = ""
 AttackOn.TextColor3 = Color3.fromRGB(0, 0, 0)
 AttackOn.TextSize = 14.000
+AttackOn.MouseButton1Down:connect(function()
+	AttackOn.BackgroundColor3 = Color3.fromRGB(65, 255, 8)
+	AttackOff.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+end)
 
 AttackOff.Name = "AttackOff"
 AttackOff.Parent = LocalScriptsFrame
@@ -1254,6 +1306,10 @@ AttackOff.Font = Enum.Font.SourceSans
 AttackOff.Text = ""
 AttackOff.TextColor3 = Color3.fromRGB(0, 0, 0)
 AttackOff.TextSize = 14.000
+AttackOff.MouseButton1Down:connect(function()
+	AttackOn.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+	AttackOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+end)
 
 SpamVoid.Name = "SpamVoid"
 SpamVoid.Parent = LocalScriptsFrame
