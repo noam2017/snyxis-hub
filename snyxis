@@ -175,6 +175,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		OpenGuiGui.Visible = true
 		PremiumFrame.Visible = false
 		FastFist.Visible = false
+		PayFor50Rbx.Visible = true
 		FastPP.Visible = false
 	elseif Whitelistedtext.Text == "GELADS09"  then
 		Whitelistedtext.Text = "welcome Basic User"
@@ -182,6 +183,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		WithelistedFrame.Visible = false
 		OpenGuiGui.Visible = true
 		PremiumFrame.Visible = false
+		PayFor50Rbx.Visible = true
 		FastFist.Visible = false
 		FastPP.Visible = false
 	elseif Whitelistedtext.Text == "ZeroBrainCe1ls"  then
@@ -189,6 +191,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		wait(2)
 		WithelistedFrame.Visible = false
 		OpenGuiGui.Visible = true
+		PayFor50Rbx.Visible = true
 		FastFist.Visible = false
 		FastPP.Visible = false
 	elseif Whitelistedtext.Text == "xqVerdexityy"  then
@@ -196,6 +199,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		wait(2)
 		WithelistedFrame.Visible = false
 		OpenGuiGui.Visible = true
+		PayFor50Rbx.Visible = true
 		PremiumFrame.Visible = false
 		FastFist.Visible = false
 		FastPP.Visible = false
@@ -221,6 +225,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		Whitelistedtext.Text = "welcome Premium User"
 		wait(2)
 		WithelistedFrame.Visible = false
+		PayFor50Rbx.Visible = true
 		OpenGuiGui.Visible = true
 		PremiumFrame.Visible = false
 		FastFist.Visible = false
@@ -241,6 +246,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		Whitelistedtext.Text = "welcome Basic User"
 		wait(2)
 		WithelistedFrame.Visible = false
+		PayFor50Rbx.Visible = true
 		OpenGuiGui.Visible = true
 		PremiumFrame.Visible = false
 		FastFist.Visible = false
@@ -482,6 +488,16 @@ AboutGui.TextColor3 = Color3.fromRGB(65, 255, 8)
 AboutGui.TextSize = 32.000
 AboutGui.TextStrokeColor3 = Color3.fromRGB(65, 255, 8)
 AboutGui.TextWrapped = true
+AboutGui.MouseButton1Down:connect(function()
+	AboutFrame.Visible = true 
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false 
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = false
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 InfosGui.Name = "InfosGui"
 InfosGui.Parent = Gui
@@ -495,6 +511,16 @@ InfosGui.TextColor3 = Color3.fromRGB(65, 255, 8)
 InfosGui.TextSize = 32.000
 InfosGui.TextStrokeColor3 = Color3.fromRGB(65, 255, 8)
 InfosGui.TextWrapped = true
+InfosGui.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = true
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = false
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 PlayerScripts.Name = "PlayerScripts"
 PlayerScripts.Parent = Gui
@@ -509,6 +535,16 @@ PlayerScripts.TextScaled = true
 PlayerScripts.TextSize = 21.000
 PlayerScripts.TextStrokeColor3 = Color3.fromRGB(65, 255, 8)
 PlayerScripts.TextWrapped = true
+PlayerScripts.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = false
+	PlayerFrame.Visible = true
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 TrainScriptsGui.Name = "TrainScriptsGui"
 TrainScriptsGui.Parent = Gui
@@ -523,6 +559,16 @@ TrainScriptsGui.TextScaled = true
 TrainScriptsGui.TextSize = 32.000
 TrainScriptsGui.TextStrokeColor3 = Color3.fromRGB(65, 255, 8)
 TrainScriptsGui.TextWrapped = true
+TrainScriptsGui.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = false
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = true
+end)
 
 AdminScriptsGui.Name = "Admin ScriptsGui"
 AdminScriptsGui.Parent = Gui
@@ -537,6 +583,16 @@ AdminScriptsGui.TextScaled = true
 AdminScriptsGui.TextSize = 32.000
 AdminScriptsGui.TextStrokeColor3 = Color3.fromRGB(65, 255, 8)
 AdminScriptsGui.TextWrapped = true
+AdminScriptsGui.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = true
+	InfosFrame.Visible = false
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = false
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 Localscripts.Name = "Localscripts"
 Localscripts.Parent = Gui
@@ -551,6 +607,16 @@ Localscripts.TextScaled = true
 Localscripts.TextSize = 32.000
 Localscripts.TextStrokeColor3 = Color3.fromRGB(65, 255, 8)
 Localscripts.TextWrapped = true
+Localscripts.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false
+	LocalScriptsFrame.Visible = true
+	Logo.Visible = false
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = false
+	TrainScriptsFrame.Visible = false
+end)
 
 FastGuiClose.Name = "FastGuiClose"
 FastGuiClose.Parent = Gui
@@ -1164,6 +1230,16 @@ Premiumscripts.TextScaled = true
 Premiumscripts.TextSize = 32.000
 Premiumscripts.TextStrokeColor3 = Color3.fromRGB(65, 255, 8)
 Premiumscripts.TextWrapped = true
+Premiumscripts.MouseButton1Down:connect(function()
+	AboutFrame.Visible = false
+	AdminFrame.Visible = false
+	InfosFrame.Visible = false 
+	LocalScriptsFrame.Visible = false 
+	Logo.Visible = false
+	PlayerFrame.Visible = false
+	PremiumFrame.Visible = true
+	TrainScriptsFrame.Visible = false
+end)
 
 PremiumFrame.Name = "PremiumFrame"
 PremiumFrame.Parent = Gui
