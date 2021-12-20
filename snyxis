@@ -1899,7 +1899,7 @@ FastPP.MouseButton1Down:connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2557,5416,-498)
 	local TrainPP = coroutine.create(function()
 		game:GetService("RunService").Heartbeat:Connect(function()
-			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+PP6"})
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+PP4"})
 		end)
 	end)
 	coroutine.resume(TrainPP)
@@ -6572,7 +6572,7 @@ FatestAdmin.MouseButton1Down:connect(function()
 							continue
 						end
 					end
-					local TargetRoot = GetRoot(v);
+					local TargetRoot = GetRoot(v);a
 					local Tool = GetCorrectToolWithHandle();
 					if (not Tool) then
 						continue
