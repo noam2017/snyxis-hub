@@ -111,19 +111,19 @@ Whitelistedtext.TextScaled = true
 Whitelistedtext.TextSize = 30.000
 Whitelistedtext.TextWrapped = true
 
-	local Whitelisted = script.Parent
+local Whitelisted = script.Parent
 
 
 
-	local player = game.Players.LocalPlayer
+local player = game.Players.LocalPlayer
 
 
 
-	local userId = player.UserId
+local userId = player.UserId
 
 
 
-	WithelistedFrame.Whitelistedtext.Text = player.Name
+WithelistedFrame.Whitelistedtext.Text = player.Name
 
 WhitelistedButton.Name = "WhitelistedButton"
 WhitelistedButton.Parent = WithelistedFrame
@@ -846,7 +846,7 @@ NameOfPlayer.TextScaled = true
 NameOfPlayer.TextSize = 14.000
 NameOfPlayer.TextWrapped = true
 
-	
+
 PPALLnoscript.Name = "PPALLnoscript"
 PPALLnoscript.Parent = PlayerFrame
 PPALLnoscript.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1366,14 +1366,14 @@ F1respawn.TextColor3 = Color3.fromRGB(65, 255, 8)
 F1respawn.TextScaled = true
 F1respawn.TextSize = 14.000
 F1respawn.TextWrapped = true
-	local Imput = game:GetService("UserInputService")
-	Imput.InputBegan:connect(function(inst)
-		if inst.KeyCode == Enum.KeyCode.F1 then
-			game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
-			Wait(1.7)
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(319,249,842)
-		end
-	end)
+local Imput = game:GetService("UserInputService")
+Imput.InputBegan:connect(function(inst)
+	if inst.KeyCode == Enum.KeyCode.F1 then
+		game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
+		Wait(1.7)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(319,249,842)
+	end
+end)
 CloseLocalScripts.Name = "Close LocalScripts"
 CloseLocalScripts.Parent = LocalScriptsFrame
 CloseLocalScripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1899,7 +1899,7 @@ FastPP.MouseButton1Down:connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2557,5416,-498)
 	local TrainPP = coroutine.create(function()
 		game:GetService("RunService").Heartbeat:Connect(function()
-			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+PP6"})
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"+PP4"})
 		end)
 	end)
 	coroutine.resume(TrainPP)
@@ -6572,7 +6572,7 @@ FatestAdmin.MouseButton1Down:connect(function()
 							continue
 						end
 					end
-					local TargetRoot = GetRoot(v);a
+					local TargetRoot = GetRoot(v);
 					local Tool = GetCorrectToolWithHandle();
 					if (not Tool) then
 						continue
@@ -11915,7 +11915,7 @@ InfYield.TextSize = 42.000
 InfYield.TextWrapped = true
 InfYield.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-	end)
+end)
 
 Reviz.Name = "Reviz"
 Reviz.Parent = AdminFrame
@@ -11928,7 +11928,7 @@ Reviz.Font = Enum.Font.SourceSans
 Reviz.Text = "Reviz"
 Reviz.TextColor3 = Color3.fromRGB(65, 255, 8)
 Reviz.TextSize = 42.00
-	Reviz.MouseButton1Down:connect(function()
+Reviz.MouseButton1Down:connect(function()
 	--// Reviz Admin V2
 --[[
 	Welcome to Reviz Admin V2! (By illremember)
@@ -14683,7 +14683,7 @@ Reviz.TextSize = 42.00
 			end
 		end
 	end
-	end)
+end)
 
 CMDX.Name = "CMD-X"
 CMDX.Parent = AdminFrame
@@ -14732,35 +14732,36 @@ local function FQKMGG_fake_script() -- NameAbout.DO NOT DELETE
 	local script = Instance.new('LocalScript', NameAbout)
 
 	local frame = script.Parent
-	
-	
-	
+
+
+
 	local player = game.Players.LocalPlayer
-	
-	
-	
+
+
+
 	local userId = player.UserId
-	
+
 	local thumbType = Enum.ThumbnailType.AvatarBust
-	
+
 	local thumbSize = Enum.ThumbnailSize.Size420x420
-	
+
 	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
-	
-	
-	
-	
+
+
+
+
+
 	frame.PlayerImage.Image = content
-	
+
 	frame.AboutName.Text = player.Name
-	
+
 end
 coroutine.wrap(FQKMGG_fake_script)()
 local function WACHKME_fake_script() -- nil. 
 	local script = Instance.new('Script', nil)
 
-	
+
 end
 coroutine.wrap(WACHKME_fake_script)()
-	
+
+
