@@ -258,7 +258,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		OpenGuiGui.Visible = true
 		PayFor50Rbx.Visible = false
 	elseif Whitelistedtext.Text == "09azAz_az90"  then
-		Whitelistedtext.Text = "welcome Premium User"
+		Whitelistedtext.Text = "wsh pedale bien ou quoi :v"
 		wait(2)
 		PayFor50Rbx.Visible = false
 		WithelistedFrame.Visible = false
