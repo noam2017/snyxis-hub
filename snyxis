@@ -243,14 +243,14 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		WithelistedFrame.Visible = false
 		OpenGuiGui.Visible = true
 	elseif Whitelistedtext.Text == "housinscheme1"  then
-		Whitelistedtext.Text = "welcome Basic User"
+		Whitelistedtext.Text = "welcome Premium User"
 		wait(2)
 		WithelistedFrame.Visible = false
-		PayFor50Rbx.Visible = true
+		PayFor50Rbx.Visible = false
 		OpenGuiGui.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
 	elseif Whitelistedtext.Text == "Just4Reaper"  then
 		Whitelistedtext.Text = "welcome Premium User"
 		wait(2)
