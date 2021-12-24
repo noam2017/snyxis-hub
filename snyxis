@@ -491,6 +491,12 @@ elseif Whitelistedtext.Text == "xIBaconHairI"  then
 		WithelistedFrame.Visible = false
 		OpenGuiGui.Visible = true
 		PayFor50Rbx.Visible = false
+elseif Whitelistedtext.Text == "Bropet906"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGuiGui.Visible = true
+		PayFor50Rbx.Visible = false
 	end
 
 end)
