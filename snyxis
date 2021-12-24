@@ -473,6 +473,12 @@ elseif Whitelistedtext.Text == "ARTUOMZzx"  then
 		PremiumFrame.Visible = false
 		FastFist.Visible = false
 		FastPP.Visible = false
+elseif Whitelistedtext.Text == "sincerly784"  then
+		Whitelistedtext.Text = "welcome FakeAdmin User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGuiGui.Visible = true
+		PayFor50Rbx.Visible = false
 	end
 
 end)
