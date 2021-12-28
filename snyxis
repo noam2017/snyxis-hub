@@ -506,6 +506,15 @@ elseif Whitelistedtext.Text == "Bropet906"  then
 		PremiumFrame.Visible = false
 		FastFist.Visible = false
 		FastPP.Visible = false
+elseif Whitelistedtext.Text == "ulli79"  then
+		Whitelistedtext.Text = "welcome Basic User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGuiGui.Visible = true
+		PayFor50Rbx.Visible = true
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
 	end
 
 end)
