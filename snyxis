@@ -173,7 +173,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		wait(2)
 		WithelistedFrame.Visible = false
 		OpenGuiGui.Visible = true
-		PremiumFrame.Visible = false
+		PremiumFrame.Visible = true
 		FastFist.Visible = true
 		PayFor50Rbx.Visible = false
 		FastPP.Visible = true
@@ -516,6 +516,15 @@ elseif Whitelistedtext.Text == "ulli79"  then
 		FastFist.Visible = false
 		FastPP.Visible = false
 	elseif Whitelistedtext.Text == "Hiphop602"  then
+		Whitelistedtext.Text = "welcome Basic User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGuiGui.Visible = true
+		PayFor50Rbx.Visible = true
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
+	elseif Whitelistedtext.Text == "DigitalDuk"  then
 		Whitelistedtext.Text = "welcome Basic User"
 		wait(2)
 		WithelistedFrame.Visible = false
