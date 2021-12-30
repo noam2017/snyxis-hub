@@ -177,6 +177,15 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		FastFist.Visible = true
 		PayFor50Rbx.Visible = false
 		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "sacha1456_alt"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGuiGui.Visible = true
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		PayFor50Rbx.Visible = false
+		FastPP.Visible = true
 	elseif Whitelistedtext.Text == "GELADS09"  then
 		Whitelistedtext.Text = "welcome Basic User"
 		wait(2)
