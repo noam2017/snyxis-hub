@@ -2498,6 +2498,7 @@ p_2.TextSize = 14.000
 p_2.TextWrapped = true
 p_2.MouseButton1Down:connect(function()
 	Premium2.Visible = false
+	PremiumFrame.Visible = true
 end)
 
 PPRemium.Name = "P PRemium"
