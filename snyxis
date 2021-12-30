@@ -853,6 +853,27 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		WithelistedFrame.Visible = false
 		OpenGui.Visible = true
 		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "iiiAlexaqt"  then
+		Whitelistedtext.Text = "welcome Basic User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = true
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
+		PayFor50Rbx_2.Visible = true
+		Purple.Visible = false
+		Pink.Visible = false
+		White.Visible = false
+		Red.Visible = false
+		Green.Visible = false
+		Blue.Visible = false 
+		BorderColor.Visible = false
+		Example.Visible = false
+		Example2.Visible = false
+		SelectFistPlace.Visible = false
+		SelectPPPlace.Visible = false
 	end
 
 end)
