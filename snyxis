@@ -2457,6 +2457,7 @@ TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 TextButton_2.MouseButton1Down:connect(function()
 	Premium2.Visible = true
+	PremiumFrame.Visible = false
 end)
 Premium2.Name = "Premium2"
 Premium2.Parent = Gui
