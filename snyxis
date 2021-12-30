@@ -841,6 +841,12 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		Example2.Visible = false
 		SelectFistPlace.Visible = false
 		SelectPPPlace.Visible = false
+	elseif Whitelistedtext.Text == "shangwari"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = false
 	end
 
 end)
@@ -2474,6 +2480,7 @@ p.TextSize = 14.000
 p.TextWrapped = true
 p.MouseButton1Down:connect(function()
 	Premium2.Visible = true
+	PremiumFrame.Visible = false
 end)
 
 p_2.Name = "<p"
