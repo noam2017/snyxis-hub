@@ -733,7 +733,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		PremiumFrame.Visible = true
 		FastFist.Visible = true
 		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "sincerely784"  then
+	elseif Whitelistedtext.Text == "xLORD_SINx"  then
 		Whitelistedtext.Text = "welcome Premium User"
 		wait(2)
 		WithelistedFrame.Visible = false
@@ -875,6 +875,12 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		SelectFistPlace.Visible = false
 		SelectPPPlace.Visible = false
 	elseif Whitelistedtext.Text == "ajvanwyk10"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "Bropet906ALT"  then
 		Whitelistedtext.Text = "welcome Premium User"
 		wait(2)
 		WithelistedFrame.Visible = false
