@@ -886,6 +886,25 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		WithelistedFrame.Visible = false
 		OpenGui.Visible = true
 		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "Alt1456_alt"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "AnotherAlt1456_alt"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "sacha1458_alt"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = false
+		
 	end
 
 end)
