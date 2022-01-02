@@ -310,6 +310,27 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		Example2.Visible = false
 		SelectFistPlace.Visible = false
 		SelectPPPlace.Visible = false
+	elseif Whitelistedtext.Text == "hgqhcx33"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		PayFor50Rbx.Visible = true
+		OpenGui.Visible = true
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
+		PayFor50Rbx_2.Visible = true
+		Purple.Visible = false
+		Pink.Visible = false
+		White.Visible = false
+		Red.Visible = false
+		Green.Visible = false
+		Blue.Visible = false 
+		BorderColor.Visible = false
+		Example.Visible = false
+		Example2.Visible = false
+		SelectFistPlace.Visible = false
+		SelectPPPlace.Visible = false
 	elseif Whitelistedtext.Text == "YxngCiiber"  then
 		Whitelistedtext.Text = "welcome Basic User"
 		wait(2)
