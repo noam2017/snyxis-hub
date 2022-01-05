@@ -104,6 +104,27 @@ local CMDX = Instance.new("TextButton")
 local CloseInfosFrame_2 = Instance.new("TextButton")
 local OpenGui = Instance.new("Frame")
 local OpenButton = Instance.new("TextButton")
+local BarBG = Instance.new("Frame")
+local Bar = Instance.new("Frame")
+local Bar_2 = Instance.new("Frame")
+local Bar_3 = Instance.new("Frame")
+local Bar_4 = Instance.new("Frame")
+local Bar_5 = Instance.new("Frame")
+local Bar_6 = Instance.new("ImageLabel")
+local Bar_7 = Instance.new("Frame")
+local Bar_8 = Instance.new("Frame")
+local Bar_9 = Instance.new("Frame")
+local Bar_10 = Instance.new("Frame")
+local Bar_11 = Instance.new("Frame")
+local Bar_12 = Instance.new("Frame")
+local Bar_13 = Instance.new("Frame")
+local Bar_14 = Instance.new("Frame")
+local Bar_15 = Instance.new("Frame")
+local Bar_16 = Instance.new("Frame")
+local Bar_17 = Instance.new("Frame")
+local Bar_18 = Instance.new("Frame")
+local Bar_19 = Instance.new("ImageLabel")
+local LoadingText = Instance.new("TextLabel")
 
 --Properties:
 
@@ -123,13 +144,14 @@ Whitelistedtext.Parent = WithelistedFrame
 Whitelistedtext.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Whitelistedtext.BorderColor3 = Color3.fromRGB(102, 99, 99)
 Whitelistedtext.Position = UDim2.new(0.0503597148, 0, 0.110000007, 0)
-Whitelistedtext.Size = UDim2.new(0, 249, 0, 50)
+Whitelistedtext.Size = UDim2.new(0, 200, 0, 50)
 Whitelistedtext.Font = Enum.Font.SourceSans
 Whitelistedtext.Text = "Player.ID"
 Whitelistedtext.TextColor3 = Color3.fromRGB(255, 255, 255)
 Whitelistedtext.TextScaled = true
 Whitelistedtext.TextSize = 30.000
 Whitelistedtext.TextWrapped = true
+Whitelistedtext.Visible = false
 
 local Whitelisted = script.Parent
 
@@ -145,12 +167,26 @@ local userId = player.UserId
 
 WithelistedFrame.Whitelistedtext.Text = player.Name
 
+LoadingText.Name = "LoadingText"
+LoadingText.Parent = WithelistedFrame
+LoadingText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoadingText.BackgroundTransparency = 1.000
+LoadingText.Position = UDim2.new(0.25, 0, 0, 0)
+LoadingText.Size = UDim2.new(0.5, 0, 0.360000014, 0)
+LoadingText.Font = Enum.Font.SourceSansItalic
+LoadingText.Text = "Loading..."
+LoadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadingText.TextScaled = true
+LoadingText.TextSize = 14.000
+LoadingText.TextStrokeTransparency = 0.400
+LoadingText.TextWrapped = true
+
 WhitelistedButton.Name = "WhitelistedButton"
 WhitelistedButton.Parent = WithelistedFrame
 WhitelistedButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 WhitelistedButton.BorderColor3 = Color3.fromRGB(102, 99, 99)
-WhitelistedButton.Position = UDim2.new(0.140287772, 0, 0.610000014, 0)
-WhitelistedButton.Size = UDim2.new(0, 200, 0, 31)
+WhitelistedButton.Position = UDim2.new(0.0330266058, 0, 0.649999976, 0)
+WhitelistedButton.Size = UDim2.new(0, 35, 0, 23)
 WhitelistedButton.Font = Enum.Font.SourceSans
 WhitelistedButton.Text = "Load"
 WhitelistedButton.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -158,6 +194,43 @@ WhitelistedButton.TextScaled = true
 WhitelistedButton.TextSize = 14.000
 WhitelistedButton.TextWrapped = true
 WhitelistedButton.MouseButton1Down:connect(function()
+Bar_18.Visible = true 
+	wait(0.1)
+Bar.Visible = true 
+	wait(0.1)
+	Bar_8.Visible = true 
+	wait(0.1)
+	Bar_7.Visible = true 
+	wait(0.1)
+	Bar_5.Visible = true 
+	wait(0.1)
+	Bar_6.Visible = true 
+	wait(0.1)
+	Bar_4.Visible = true 
+	wait(0.1)
+	Bar_3.Visible = true 
+	wait(0.1)
+	Bar_2.Visible = true
+	wait(0.1)
+	Bar_12.Visible = true 
+	wait(0.1)
+	Bar_11.Visible = true 
+	wait(0.1)
+	Bar_13.Visible = true 
+	wait(0.1)
+	Bar_10.Visible = true 
+	wait(0.1)
+	Bar_14.Visible = true 
+	wait(0.1)
+	Bar_9.Visible = true 
+	wait(0.1)
+	Bar_16.Visible = true 
+	wait(0.1)
+	Bar_15.Visible = true 
+	wait(0.1)
+	Bar_17.Visible = true 
+	wait(0.1)
+	Bar_19.Visible = true 
 	if Whitelistedtext.Text == "slt51perohackeado2"  then
 		Whitelistedtext.Text = "welcome Premium User"
 		wait(2)
@@ -7536,6 +7609,190 @@ OpenButton.TextWrapped = true
 OpenButton.MouseButton1Down:connect(function()
 	Gui.Visible = true 
 end)
+
+BarBG.Name = "BarBG"
+BarBG.Parent = WithelistedFrame
+BarBG.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+BarBG.Position = UDim2.new(0.209285602, 0, 0.458805829, 0)
+BarBG.Size = UDim2.new(0.580714345, 0, 0.312388062, 0)
+
+Bar.Name = "Bar"
+Bar.Parent = BarBG
+Bar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(0.055748757, 0, 0, 0)
+Bar.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar.Visible = false
+
+Bar_2.Name = "Bar"
+Bar_2.Parent = BarBG
+Bar_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_2.BorderSizePixel = 0
+Bar_2.Position = UDim2.new(0.445990026, 0, 0, 0)
+Bar_2.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_2.Visible = false
+
+Bar_3.Name = "Bar"
+Bar_3.Parent = BarBG
+Bar_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_3.BorderSizePixel = 0
+Bar_3.Position = UDim2.new(0.390241265, 0, 0, 0)
+Bar_3.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_3.Visible = false
+
+Bar_4.Name = "Bar"
+Bar_4.Parent = BarBG
+Bar_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_4.BorderSizePixel = 0
+Bar_4.Position = UDim2.new(0.334492534, 0, 0, 0)
+Bar_4.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_4.Visible = false
+
+Bar_5.Name = "Bar"
+Bar_5.Parent = BarBG
+Bar_5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_5.BorderSizePixel = 0
+Bar_5.Position = UDim2.new(0.222995013, 0, 0, 0)
+Bar_5.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_5.Visible = false
+
+Bar_6.Name = "Bar"
+Bar_6.Parent = BarBG
+Bar_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bar_6.BackgroundTransparency = 1.000
+Bar_6.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_6.Image = "rbxassetid://3570695787"
+Bar_6.ImageColor3 = Color3.fromRGB(255, 0, 0)
+Bar_6.ScaleType = Enum.ScaleType.Slice
+Bar_6.SliceCenter = Rect.new(100, 100, 100, 100)
+Bar_6.SliceScale = 0.120
+Bar_6.Visible = false
+
+Bar_7.Name = "Bar"
+Bar_7.Parent = BarBG
+Bar_7.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_7.BorderSizePixel = 0
+Bar_7.Position = UDim2.new(0.278743774, 0, 0, 0)
+Bar_7.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_7.Visible = false
+
+Bar_8.Name = "Bar"
+Bar_8.Parent = BarBG
+Bar_8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_8.BorderSizePixel = 0
+Bar_8.Position = UDim2.new(0.167246252, 0, 0, 0)
+Bar_8.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_8.Visible = false
+
+Bar_9.Name = "Bar"
+Bar_9.Parent = BarBG
+Bar_9.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_9.BorderSizePixel = 0
+Bar_9.Position = UDim2.new(0.111497514, 0, 0, 0)
+Bar_9.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_9.Visible = false
+
+Bar_10.Name = "Bar"
+Bar_10.Parent = BarBG
+Bar_10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_10.BorderSizePixel = 0
+Bar_10.Position = UDim2.new(0.780482531, 0, 0, 0)
+Bar_10.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_10.Visible = false
+
+Bar_11.Name = "Bar"
+Bar_11.Parent = BarBG
+Bar_11.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_11.BorderSizePixel = 0
+Bar_11.Position = UDim2.new(0.668985009, 0, 0, 0)
+Bar_11.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_11.Visible = false
+
+Bar_12.Name = "Bar"
+Bar_12.Parent = BarBG
+Bar_12.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_12.BorderSizePixel = 0
+Bar_12.Position = UDim2.new(0.557487547, 0, 0, 0)
+Bar_12.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_12.Visible = false
+
+Bar_13.Name = "Bar"
+Bar_13.Parent = BarBG
+Bar_13.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_13.BorderSizePixel = 0
+Bar_13.Position = UDim2.new(0.613236248, 0, 0, 0)
+Bar_13.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_13.Visible = false
+
+Bar_14.Name = "Bar"
+Bar_14.Parent = BarBG
+Bar_14.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_14.BorderSizePixel = 0
+Bar_14.Position = UDim2.new(0.501738787, 0, 0, 0)
+Bar_14.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_14.Visible = false
+
+Bar_15.Name = "Bar"
+Bar_15.Parent = BarBG
+Bar_15.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_15.BorderSizePixel = 0
+Bar_15.Position = UDim2.new(0.724733829, 0, 0, 0)
+Bar_15.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_15.Visible = false
+
+Bar_16.Name = "Bar"
+Bar_16.Parent = BarBG
+Bar_16.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_16.BorderSizePixel = 0
+Bar_16.Position = UDim2.new(0.891980052, 0, 0, 0)
+Bar_16.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_16.Visible = false
+
+Bar_17.Name = "Bar"
+Bar_17.Parent = BarBG
+Bar_17.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_17.BorderSizePixel = 0
+Bar_17.Position = UDim2.new(0.836231291, 0, 0, 0)
+Bar_17.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_17.Visible = false
+
+Bar_18.Name = "Bar"
+Bar_18.Parent = BarBG
+Bar_18.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Bar_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_18.BorderSizePixel = 0
+Bar_18.Position = UDim2.new(0.935340166, 0, 0, 0)
+Bar_18.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_18.Visible = false
+
+Bar_19.Name = "Bar"
+Bar_19.Parent = BarBG
+Bar_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bar_19.BackgroundTransparency = 1.000
+Bar_19.Position = UDim2.new(0.947728753, 0, 0, 0)
+Bar_19.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
+Bar_19.Image = "rbxassetid://3570695787"
+Bar_19.ImageColor3 = Color3.fromRGB(255, 0, 0)
+Bar_19.ScaleType = Enum.ScaleType.Slice
+Bar_19.SliceCenter = Rect.new(100, 100, 100, 100)
+Bar_19.SliceScale = 0.120
+Bar_19.Visible = false
 
 -- Scripts:
 
