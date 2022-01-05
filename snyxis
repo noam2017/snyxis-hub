@@ -952,6 +952,12 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		WithelistedFrame.Visible = false
 		OpenGui.Visible = true
 		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "Ultimet_FrayzerALT"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = false
 		
 	end
 
