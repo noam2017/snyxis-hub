@@ -946,6 +946,12 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		Example2.Visible = false
 		SelectFistPlace.Visible = false
 		SelectPPPlace.Visible = false
+	elseif Whitelistedtext.Text == "Izanete"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = false
 		
 	end
 
