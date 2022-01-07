@@ -1544,6 +1544,20 @@ REAPALLON.TextSize = 14.000
 REAPALLON.MouseButton1Down:connect(function()
 	REAPALLON.BackgroundColor3 = Color3.fromRGB(65, 255, 8)
 	REAPALLOFF.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+		_G.Toggle = true
+		while _G.Toggle do
+			local args = {
+				[1] = {
+					[1] = "Respawn"
+				}
+			}
+			wait(0.2)
+			for _,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+				if v.Name == "ForceField"  then
+					v:Destroy()
+				end
+			end
+		end
 end)
 
 Loophellon.Name = "Loophell on"
@@ -1631,13 +1645,20 @@ REAPALLOFF.TextSize = 14.000
 REAPALLOFF.MouseButton1Down:connect(function()
 	REAPALLON.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
 	REAPALLOFF.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-	_G.on = 0
-	while _G.on == 1
-	do
-
-		game.ReplicatedStorage.RemoteEvent:FireServer({"Skill_SoulReap",game.Players[NameOfPlayer.text]})
-		wait(0.6)
-	end
+		_G.Toggle = false
+		while _G.Toggle do
+			local args = {
+				[1] = {
+					[1] = "Respawn"
+				}
+			}
+			wait(0.2)
+			for _,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+				if v.Name == "ForceField"  then
+					v:Destroy()
+				end
+			end
+		end
 end)
 
 Loopoff.Name = "Loop off"
