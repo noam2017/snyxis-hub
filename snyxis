@@ -1037,6 +1037,12 @@ Bar.Visible = true
 		WithelistedFrame.Visible = false
 		OpenGui.Visible = true
 		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "ayeezxchhy"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = false
 		
 	end
 
@@ -1095,7 +1101,7 @@ GuiBorder.TextColor3 = Color3.fromRGB(0, 0, 0)
 GuiBorder.TextSize = 14.000
 
 AboutGui.Name = "AboutGui"
-AboutGui.Parent = Gui
+AboutGui.Parent = Gui 
 AboutGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 AboutGui.BorderColor3 = Color3.fromRGB(102, 99, 99)
 AboutGui.Position = UDim2.new(-0.00156250002, 0, 0, 0)
