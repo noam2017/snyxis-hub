@@ -237,6 +237,12 @@ Bar.Visible = true
 		PayFor50Rbx.Visible = false 
 		WithelistedFrame.Visible = false
 		OpenGui.Visible = true
+	elseif Whitelistedtext.Text == "KosListBot"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		PayFor50Rbx.Visible = false 
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
 	elseif Whitelistedtext.Text == "Ultimet_Frayzer"  then
 		Whitelistedtext.Text = "welcome Owner User"
 		wait(2)
