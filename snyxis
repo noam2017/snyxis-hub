@@ -1049,6 +1049,111 @@ Bar.Visible = true
 		WithelistedFrame.Visible = false
 		OpenGui.Visible = true
 		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "HDS_TH17"  then
+		Whitelistedtext.Text = "welcome Basic User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = true
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
+		PayFor50Rbx_2.Visible = true
+		Purple.Visible = false
+		Pink.Visible = false
+		White.Visible = false
+		Red.Visible = false
+		Green.Visible = false
+		Blue.Visible = false 
+		BorderColor.Visible = false
+		Example.Visible = false
+		Example2.Visible = false
+		SelectFistPlace.Visible = false
+		SelectPPPlace.Visible = false
+	elseif Whitelistedtext.Text == "PSYCHlCmain"  then
+		Whitelistedtext.Text = "welcome Basic User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = true
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
+		PayFor50Rbx_2.Visible = true
+		Purple.Visible = false
+		Pink.Visible = false
+		White.Visible = false
+		Red.Visible = false
+		Green.Visible = false
+		Blue.Visible = false 
+		BorderColor.Visible = false
+		Example.Visible = false
+		Example2.Visible = false
+		SelectFistPlace.Visible = false
+		SelectPPPlace.Visible = false
+	elseif Whitelistedtext.Text == "PastriezBakeryXD"  then
+		Whitelistedtext.Text = "welcome Basic User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = true
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
+		PayFor50Rbx_2.Visible = true
+		Purple.Visible = false
+		Pink.Visible = false
+		White.Visible = false
+		Red.Visible = false
+		Green.Visible = false
+		Blue.Visible = false 
+		BorderColor.Visible = false
+		Example.Visible = false
+		Example2.Visible = false
+		SelectFistPlace.Visible = false
+		SelectPPPlace.Visible = false
+	elseif Whitelistedtext.Text == "BedWarsMain"  then
+		Whitelistedtext.Text = "welcome Basic User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = true
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
+		PayFor50Rbx_2.Visible = true
+		Purple.Visible = false
+		Pink.Visible = false
+		White.Visible = false
+		Red.Visible = false
+		Green.Visible = false
+		Blue.Visible = false 
+		BorderColor.Visible = false
+		Example.Visible = false
+		Example2.Visible = false
+		SelectFistPlace.Visible = false
+		SelectPPPlace.Visible = false
+	elseif Whitelistedtext.Text == "BaseBattlez"  then
+		Whitelistedtext.Text = "welcome Basic User"
+		wait(2)
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		PayFor50Rbx.Visible = true
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
+		PayFor50Rbx_2.Visible = true
+		Purple.Visible = false
+		Pink.Visible = false
+		White.Visible = false
+		Red.Visible = false
+		Green.Visible = false
+		Blue.Visible = false 
+		BorderColor.Visible = false
+		Example.Visible = false
+		Example2.Visible = false
+		SelectFistPlace.Visible = false
+		SelectPPPlace.Visible = false
 		
 	end
 
