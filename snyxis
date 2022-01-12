@@ -243,6 +243,36 @@ Bar.Visible = true
 		PayFor50Rbx.Visible = false 
 		WithelistedFrame.Visible = false
 		OpenGui.Visible = true
+        elseif Whitelistedtext.Text == "Smaragd007"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		PayFor50Rbx.Visible = false 
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+        elseif Whitelistedtext.Text == "Lil_smaragd007"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		PayFor50Rbx.Visible = false 
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+        elseif Whitelistedtext.Text == "Miss_Smaragd007"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		PayFor50Rbx.Visible = false 
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+        elseif Whitelistedtext.Text == "TheSmaragd007"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		PayFor50Rbx.Visible = false 
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+        elseif Whitelistedtext.Text == "VediaParker"  then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		PayFor50Rbx.Visible = false 
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
 	elseif Whitelistedtext.Text == "xMafiq"  then
 		Whitelistedtext.Text = "welcome Premium User"
 		wait(2)
