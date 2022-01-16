@@ -1651,6 +1651,7 @@ Premiumscripts.MouseButton1Down:connect(function()
 		FastPP.Visible = true
 	elseif Whitelistedtext.Text == "Ultimet_Frayzer"  then
 		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true 
 		FastFist.Visible = true
 		FastPP.Visible = true
 		PayFor50Rbx.Visible = false
