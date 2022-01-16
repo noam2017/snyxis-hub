@@ -77,10 +77,6 @@ local FastPP = Instance.new("TextButton")
 local ClosePremium = Instance.new("TextButton")
 local PayFor50Rbx = Instance.new("TextLabel")
 local PayFor50Rbx_2 = Instance.new("TextLabel")
-local SelectFistPlace = Instance.new("TextBox")
-local Example = Instance.new("TextLabel")
-local SelectPPPlace = Instance.new("TextBox")
-local Example2 = Instance.new("TextLabel")
 local pagenumber = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
@@ -105,26 +101,9 @@ local CloseInfosFrame_2 = Instance.new("TextButton")
 local OpenGui = Instance.new("Frame")
 local OpenButton = Instance.new("TextButton")
 local BarBG = Instance.new("Frame")
-local Bar = Instance.new("Frame")
-local Bar_2 = Instance.new("Frame")
-local Bar_3 = Instance.new("Frame")
-local Bar_4 = Instance.new("Frame")
-local Bar_5 = Instance.new("Frame")
-local Bar_6 = Instance.new("ImageLabel")
-local Bar_7 = Instance.new("Frame")
-local Bar_8 = Instance.new("Frame")
-local Bar_9 = Instance.new("Frame")
-local Bar_10 = Instance.new("Frame")
-local Bar_11 = Instance.new("Frame")
-local Bar_12 = Instance.new("Frame")
-local Bar_13 = Instance.new("Frame")
-local Bar_14 = Instance.new("Frame")
-local Bar_15 = Instance.new("Frame")
-local Bar_16 = Instance.new("Frame")
-local Bar_17 = Instance.new("Frame")
-local Bar_18 = Instance.new("Frame")
-local Bar_19 = Instance.new("ImageLabel")
-local LoadingText = Instance.new("TextLabel")
+local LoadBack = Instance.new("TextLabel")
+local LoadFront = Instance.new("TextLabel")
+local LoadingLabel = Instance.new("TextLabel")
 
 --Properties:
 
@@ -167,19 +146,40 @@ local userId = player.UserId
 
 WithelistedFrame.Whitelistedtext.Text = player.Name
 
-LoadingText.Name = "LoadingText"
-LoadingText.Parent = WithelistedFrame
-LoadingText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LoadingText.BackgroundTransparency = 1.000
-LoadingText.Position = UDim2.new(0.25, 0, 0, 0)
-LoadingText.Size = UDim2.new(0.5, 0, 0.360000014, 0)
-LoadingText.Font = Enum.Font.SourceSansItalic
-LoadingText.Text = "Loading..."
-LoadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
-LoadingText.TextScaled = true
-LoadingText.TextSize = 14.000
-LoadingText.TextStrokeTransparency = 0.400
-LoadingText.TextWrapped = true
+LoadBack.Name = "LoadBack"
+LoadBack.Parent = BarBG
+LoadBack.BackgroundColor3 = Color3.new(0, 0, 0)
+LoadBack.BorderColor3 = Color3.new(0.45098, 0.45098, 0.45098)
+LoadBack.BorderSizePixel = 5
+LoadBack.Size = UDim2.new(1.00000024, 0, 1.00000024, 0)
+LoadBack.Font = Enum.Font.SourceSans
+LoadBack.Text = ""
+LoadBack.TextSize = 14
+
+LoadFront.Name = "LoadFront"
+LoadFront.Parent = BarBG
+LoadFront.BackgroundColor3 = Color3.new(1, 1, 1)
+LoadFront.BorderColor3 = Color3.new(0.247059, 0.247059, 0.247059)
+LoadFront.Position = UDim2.new(-0.00541448547, 0, 0, 0)
+LoadFront.Size = UDim2.new(0.0608129799, 0, 0.967989981, 0)
+LoadFront.Font = Enum.Font.SourceSans
+LoadFront.Text = ""
+LoadFront.TextScaled = true
+LoadFront.TextSize = 14
+LoadFront.TextWrapped = true
+
+LoadingLabel.Name = "LoadingLabel"
+LoadingLabel.Parent = BarBG
+LoadingLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+LoadingLabel.BackgroundTransparency = 1
+LoadingLabel.Position = UDim2.new(0, 0, -1.46870387, 0)
+LoadingLabel.Size = UDim2.new(1.00000036, 0, 1.25043333, 0)
+LoadingLabel.Font = Enum.Font.SourceSansBold
+LoadingLabel.Text = "Loading"
+LoadingLabel.TextColor3 = Color3.new(1, 1, 1)
+LoadingLabel.TextScaled = true
+LoadingLabel.TextSize = 14
+LoadingLabel.TextWrapped = true
 
 WhitelistedButton.Name = "WhitelistedButton"
 WhitelistedButton.Parent = WithelistedFrame
@@ -193,1037 +193,7 @@ WhitelistedButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhitelistedButton.TextScaled = true
 WhitelistedButton.TextSize = 14.000
 WhitelistedButton.TextWrapped = true
-WhitelistedButton.MouseButton1Down:connect(function()
-Bar_18.Visible = true 
-	wait(0.1)
-Bar.Visible = true 
-	wait(0.1)
-	Bar_8.Visible = true 
-	wait(0.1)
-	Bar_7.Visible = true 
-	wait(0.1)
-	Bar_5.Visible = true 
-	wait(0.1)
-	Bar_6.Visible = true 
-	wait(0.1)
-	Bar_4.Visible = true 
-	wait(0.1)
-	Bar_3.Visible = true 
-	wait(0.1)
-	Bar_2.Visible = true
-	wait(0.1)
-	Bar_12.Visible = true 
-	wait(0.1)
-	Bar_11.Visible = true 
-	wait(0.1)
-	Bar_13.Visible = true 
-	wait(0.1)
-	Bar_10.Visible = true 
-	wait(0.1)
-	Bar_14.Visible = true 
-	wait(0.1)
-	Bar_9.Visible = true 
-	wait(0.1)
-	Bar_16.Visible = true 
-	wait(0.1)
-	Bar_15.Visible = true 
-	wait(0.1)
-	Bar_17.Visible = true 
-	wait(0.1)
-	Bar_19.Visible = true 
-	if Whitelistedtext.Text == "slt51perohackeado2"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "KosListBot"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-        elseif Whitelistedtext.Text == "Smaragd007"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-        elseif Whitelistedtext.Text == "Lil_smaragd007"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-        elseif Whitelistedtext.Text == "Miss_Smaragd007"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-        elseif Whitelistedtext.Text == "TheSmaragd007"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-        elseif Whitelistedtext.Text == "VediaParker"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "xMafiq"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "Ultimet_Frayzer"  then
-		Whitelistedtext.Text = "welcome Owner User"
-		wait(2)
-		PayFor50Rbx.Visible = false
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "SnyxisAlt"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "ROYALM150NINJA"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "UnusualIUsername"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false 
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "xS4cha"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		PayFor50Rbx.Visible = false
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "sacha1456_alt"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		PayFor50Rbx.Visible = false
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "GELADS09"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PremiumFrame.Visible = false
-		PayFor50Rbx.Visible = true
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "cx_jeff"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PremiumFrame.Visible = false
-		PayFor50Rbx.Visible = true
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "ZeroBrainCe1ls"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "xqVerdexityy"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "merte2343"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		PayFor50Rbx.Visible = false
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "Mr_LumiYtALT"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "xXxProfesorGhostxXx"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "LumxAlt"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "ObsidianPheonixx"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		PayFor50Rbx.Visible = true
-		OpenGui.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "hgqhcx33"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		PayFor50Rbx.Visible = true
-		OpenGui.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "YxngCiiber"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "DanielworldTester"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "housinscheme1"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		PayFor50Rbx.Visible = false
-		OpenGui.Visible = true
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "Just4Reaper"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "09azAz_az90"  then
-		Whitelistedtext.Text = "Welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-	elseif Whitelistedtext.Text == "Quantavio"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "Quantavio_alt"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "ImZ1ne"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "Denmar250"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		PayFor50Rbx.Visible = true
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "ALTDanielworldALT"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		PayFor50Rbx.Visible = false
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "finbar179"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "ZluqYT25"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "Ghostly_Fragment"  then
-		Whitelistedtext.Text = "welcome FakeAdmin User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "alanous54"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "Querxnciaa"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "rayyanj2010"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "hydradawn123"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "TryingTOBe2001"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "babo44123ALT"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "Master_Kral1232"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "babo44123"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "NightStylePlay"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "HyPanake"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "CandiceWendysDee"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "Prime_W0lf"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "xXBt_MainXx"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "xXSupreme_P4ndaXx"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "Etkelly1120"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "ARTUOMZzx"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-		PremiumFrame.Visible = true
-		FastFist.Visible = true
-		FastPP.Visible = true
-	elseif Whitelistedtext.Text == "xLORD_SINx"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "Zleffy"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "xIBaconHairI"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "Bropet906"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "Artem_TOP2442"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "ulli79"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "Hiphop602"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "DigitalDuk"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "shangwari"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "ljcopp"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "iiiAlexaqt"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "ajvanwyk10"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "Bropet906ALT"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "Alt1456_alt"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "AnotherAlt1456_alt"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "sacha1458_alt"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "JialerOMG"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "Izanete"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "Ultimet_FrayzerALT"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == " izxnalt2"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "ayeezxchhy"  then
-		Whitelistedtext.Text = "welcome Premium User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = false
-	elseif Whitelistedtext.Text == "HDS_TH17"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "PSYCHlCmain"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "PastriezBakeryXD"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "BedWarsMain"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-	elseif Whitelistedtext.Text == "BaseBattlez"  then
-		Whitelistedtext.Text = "welcome Basic User"
-		wait(2)
-		WithelistedFrame.Visible = false
-		OpenGui.Visible = true
-		PayFor50Rbx.Visible = true
-		PremiumFrame.Visible = false
-		FastFist.Visible = false
-		FastPP.Visible = false
-		PayFor50Rbx_2.Visible = true
-		Purple.Visible = false
-		Pink.Visible = false
-		White.Visible = false
-		Red.Visible = false
-		Green.Visible = false
-		Blue.Visible = false 
-		BorderColor.Visible = false
-		Example.Visible = false
-		Example2.Visible = false
-		SelectFistPlace.Visible = false
-		SelectPPPlace.Visible = false
-		
-	end
-
-end)
+WhitelistedButton.Visible = false
 
 CloseWhitelist.Name = "CloseWhitelist"
 CloseWhitelist.Parent = WithelistedFrame
@@ -1727,20 +697,20 @@ REAPALLON.TextSize = 14.000
 REAPALLON.MouseButton1Down:connect(function()
 	REAPALLON.BackgroundColor3 = Color3.fromRGB(65, 255, 8)
 	REAPALLOFF.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
-		_G.Toggle = true
-		while _G.Toggle do
-			local args = {
-				[1] = {
-					[1] = "Respawn"
-				}
+	_G.Toggle = true
+	while _G.Toggle do
+		local args = {
+			[1] = {
+				[1] = "Respawn"
 			}
-			wait(0.2)
-			for _,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
-				if v.Name == "ForceField"  then
-					v:Destroy()
-				end
+		}
+		wait(0.2)
+		for _,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			if v.Name == "ForceField"  then
+				v:Destroy()
 			end
 		end
+	end
 end)
 
 Loophellon.Name = "Loophell on"
@@ -1828,20 +798,20 @@ REAPALLOFF.TextSize = 14.000
 REAPALLOFF.MouseButton1Down:connect(function()
 	REAPALLON.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
 	REAPALLOFF.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-		_G.Toggle = false
-		while _G.Toggle do
-			local args = {
-				[1] = {
-					[1] = "Respawn"
-				}
+	_G.Toggle = false
+	while _G.Toggle do
+		local args = {
+			[1] = {
+				[1] = "Respawn"
 			}
-			wait(0.2)
-			for _,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
-				if v.Name == "ForceField"  then
-					v:Destroy()
-				end
+		}
+		wait(0.2)
+		for _,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			if v.Name == "ForceField"  then
+				v:Destroy()
 			end
 		end
+	end
 end)
 
 Loopoff.Name = "Loop off"
@@ -2637,9 +1607,250 @@ Premiumscripts.MouseButton1Down:connect(function()
 	LocalScriptsFrame.Visible = false 
 	Logo.Visible = false
 	PlayerFrame.Visible = false
-	PremiumFrame.Visible = true
 	TrainScriptsFrame.Visible = false
 	Premium2.Visible = false
+	if Whitelistedtext.Text == "slt51perohackeado2"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "KosListBot"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Smaragd007"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Lil_smaragd007"  then
+		PayFor50Rbx.Visible = false 
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Miss_Smaragd007"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "TheSmaragd007"  then
+		PayFor50Rbx.Visible = false 
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "VediaParker"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "xMafiq"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Ultimet_Frayzer"  then
+		PayFor50Rbx.Visible = false
+		FastFist.Visible = true
+		FastPP.Visible = true
+		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "SnyxisAlt"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "ROYALM150NINJA"  then
+		PayFor50Rbx.Visible = false 
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "UnusualIUsername"  then
+		PayFor50Rbx.Visible = false 
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "xS4cha"  then
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		PayFor50Rbx.Visible = false
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "sacha1456_alt"  then
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		PayFor50Rbx.Visible = false
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "merte2343"  then
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		PayFor50Rbx.Visible = false
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Mr_LumiYtALT"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "xXxProfesorGhostxXx"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "LumxAlt"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "YxngCiiber"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "DanielworldTester"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "housinscheme1"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Just4Reaper"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "09azAz_az90"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Ghostly_Fragment"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "babo44123ALT"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "babo44123"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "NightStylePlay"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "HyPanake"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "CandiceWendysDee"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "xXBt_MainXx"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "xXSupreme_P4ndaXx"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "ARTUOMZzx"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "xLORD_SINx"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Zleffy"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "xIBaconHairI"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Bropet906"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "shangwari"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "ljcopp"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "ajvanwyk10"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Bropet906ALT"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Alt1456_alt"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "AnotherAlt1456_alt"  then
+		PayFor50Rbx.Visible = false
+	    PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "sacha1458_alt"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "Izanete"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == " izxnalt2"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	elseif Whitelistedtext.Text == "ayeezxchhy"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+elseif Whitelistedtext.Text == "Ultimet_FrayzerALT"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
+	else PremiumFrame.Visible = true 
+    player:kick("Not Premium")
+	
+
+
+	end
+	
 end)
 
 PremiumFrame.Name = "PremiumFrame"
@@ -2747,67 +1958,6 @@ PayFor50Rbx_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 PayFor50Rbx_2.TextScaled = true
 PayFor50Rbx_2.TextSize = 14.000
 PayFor50Rbx_2.TextWrapped = true 
-
-
-SelectFistPlace.Name = "SelectFistPlace"
-SelectFistPlace.Parent = PremiumFrame
-SelectFistPlace.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-SelectFistPlace.BorderColor3 = Color3.fromRGB(249, 0, 13)
-SelectFistPlace.Position = UDim2.new(0.0158730168, 0, 0.690909088, 0)
-SelectFistPlace.Size = UDim2.new(0, 200, 0, 50)
-SelectFistPlace.Font = Enum.Font.SourceSans
-SelectFistPlace.PlaceholderColor3 = Color3.fromRGB(249, 0, 13)
-SelectFistPlace.PlaceholderText = "Fist Place"
-SelectFistPlace.Text = ""
-SelectFistPlace.TextColor3 = Color3.fromRGB(249, 0, 13)
-SelectFistPlace.TextScaled = true
-SelectFistPlace.TextSize = 14.000
-SelectFistPlace.TextWrapped = true
-SelectFistPlace.Visible = false
-
-Example.Name = "Example"
-Example.Parent = PremiumFrame
-Example.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Example.BorderColor3 = Color3.fromRGB(249, 0, 13)
-Example.Position = UDim2.new(0.0158730168, 0, 0.856818199, 0)
-Example.Size = UDim2.new(0, 200, 0, 50)
-Example.Font = Enum.Font.SourceSans
-Example.Text = "Qa = +FS6"
-Example.TextColor3 = Color3.fromRGB(249, 0, 13)
-Example.TextScaled = true
-Example.TextSize = 14.000
-Example.TextWrapped = true
-Example.Visible = false
-
-SelectPPPlace.Name = "SelectPPPlace"
-SelectPPPlace.Parent = PremiumFrame
-SelectPPPlace.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-SelectPPPlace.BorderColor3 = Color3.fromRGB(0, 0, 255)
-SelectPPPlace.Position = UDim2.new(0.509920657, 0, 0.690909088, 0)
-SelectPPPlace.Size = UDim2.new(0, 200, 0, 50)
-SelectPPPlace.Font = Enum.Font.SourceSans
-SelectPPPlace.PlaceholderColor3 = Color3.fromRGB(0, 0, 255)
-SelectPPPlace.PlaceholderText = "PP Place"
-SelectPPPlace.Text = ""
-SelectPPPlace.TextColor3 = Color3.fromRGB(0, 0, 255)
-SelectPPPlace.TextScaled = true
-SelectPPPlace.TextSize = 14.000
-SelectPPPlace.TextWrapped = true
-SelectPPPlace.Visible = false
-
-Example2.Name = "Example 2"
-Example2.Parent = PremiumFrame
-Example2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Example2.BorderColor3 = Color3.fromRGB(0, 0, 255)
-Example2.Position = UDim2.new(0.509920657, 0, 0.856818199, 0)
-Example2.Size = UDim2.new(0, 200, 0, 50)
-Example2.Font = Enum.Font.SourceSans
-Example2.Text = "Qa = +PP6"
-Example2.TextColor3 = Color3.fromRGB(0, 0, 255)
-Example2.TextScaled = true
-Example2.TextSize = 14.000
-Example2.TextWrapped = true
-Example2.Visible = false
 
 pagenumber.Name = "page number"
 pagenumber.Parent = PremiumFrame
@@ -2981,7 +2131,7 @@ Red.MouseButton1Down:connect(function()
 	OpenGui.BorderColor3 = Color3.fromRGB(170, 0, 0) 
 	OpenButton.BorderColor3 = Color3.fromRGB(170, 0, 0)
 	OpenButton.TextColor3 = Color3.fromRGB(170, 0, 0)
-	
+
 end)
 
 Blue.Name = "Blue"
@@ -3038,10 +2188,10 @@ Blue.MouseButton1Down:connect(function()
 	InfYield.BorderColor3 = Color3.fromRGB(0, 0, 255) 
 	Reviz.BorderColor3 = Color3.fromRGB(0, 0, 255)
 	CMDX.BorderColor3 = Color3.fromRGB(0, 0, 255) 
-    OpenGui.BorderColor3 = Color3.fromRGB(0, 0, 255) 
+	OpenGui.BorderColor3 = Color3.fromRGB(0, 0, 255) 
 	OpenButton.BorderColor3 = Color3.fromRGB(0, 0, 255)
 	OpenButton.TextColor3 = Color3.fromRGB(0, 0, 255)
-	
+
 end)
 
 Pink.Name = "Pink"
@@ -3203,7 +2353,7 @@ White.MouseButton1Down:connect(function()
 	Rejoin.BorderColor3 = Color3.fromRGB(255, 255, 255)
 	Spychat.BorderColor3 = Color3.fromRGB(255, 255, 255) 
 	DestroyGui.BorderColor3 = Color3.fromRGB(255, 255, 255) 
-    RTX.BorderColor3 = Color3.fromRGB(255, 255, 255) 
+	RTX.BorderColor3 = Color3.fromRGB(255, 255, 255) 
 	F1respawn.BorderColor3 = Color3.fromRGB(255, 255, 255)
 	RepScriptNoScript.BorderColor3 = Color3.fromRGB(255, 255, 255)  
 	Instantrespawnnoscript.BorderColor3 = Color3.fromRGB(255, 255, 255) 
@@ -3280,7 +2430,7 @@ Purple.MouseButton1Down:connect(function()
 	OpenGui.BorderColor3 = Color3.fromRGB(84, 56, 170) 
 	OpenButton.BorderColor3 = Color3.fromRGB(84, 56, 170)
 	OpenButton.TextColor3 = Color3.fromRGB(84, 56, 170)
-    
+
 end)
 
 AdminFrame.Name = "AdminFrame"
@@ -7820,218 +6970,60 @@ BarBG.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
 BarBG.Position = UDim2.new(0.209285602, 0, 0.458805829, 0)
 BarBG.Size = UDim2.new(0.580714345, 0, 0.312388062, 0)
 
-Bar.Name = "Bar"
-Bar.Parent = BarBG
-Bar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar.BorderSizePixel = 0
-Bar.Position = UDim2.new(0.055748757, 0, 0, 0)
-Bar.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar.Visible = false
-
-Bar_2.Name = "Bar"
-Bar_2.Parent = BarBG
-Bar_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_2.BorderSizePixel = 0
-Bar_2.Position = UDim2.new(0.445990026, 0, 0, 0)
-Bar_2.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_2.Visible = false
-
-Bar_3.Name = "Bar"
-Bar_3.Parent = BarBG
-Bar_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_3.BorderSizePixel = 0
-Bar_3.Position = UDim2.new(0.390241265, 0, 0, 0)
-Bar_3.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_3.Visible = false
-
-Bar_4.Name = "Bar"
-Bar_4.Parent = BarBG
-Bar_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_4.BorderSizePixel = 0
-Bar_4.Position = UDim2.new(0.334492534, 0, 0, 0)
-Bar_4.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_4.Visible = false
-
-Bar_5.Name = "Bar"
-Bar_5.Parent = BarBG
-Bar_5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_5.BorderSizePixel = 0
-Bar_5.Position = UDim2.new(0.222995013, 0, 0, 0)
-Bar_5.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_5.Visible = false
-
-Bar_6.Name = "Bar"
-Bar_6.Parent = BarBG
-Bar_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Bar_6.BackgroundTransparency = 1.000
-Bar_6.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_6.Image = "rbxassetid://3570695787"
-Bar_6.ImageColor3 = Color3.fromRGB(255, 0, 0)
-Bar_6.ScaleType = Enum.ScaleType.Slice
-Bar_6.SliceCenter = Rect.new(100, 100, 100, 100)
-Bar_6.SliceScale = 0.120
-Bar_6.Visible = false
-
-Bar_7.Name = "Bar"
-Bar_7.Parent = BarBG
-Bar_7.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_7.BorderSizePixel = 0
-Bar_7.Position = UDim2.new(0.278743774, 0, 0, 0)
-Bar_7.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_7.Visible = false
-
-Bar_8.Name = "Bar"
-Bar_8.Parent = BarBG
-Bar_8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_8.BorderSizePixel = 0
-Bar_8.Position = UDim2.new(0.167246252, 0, 0, 0)
-Bar_8.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_8.Visible = false
-
-Bar_9.Name = "Bar"
-Bar_9.Parent = BarBG
-Bar_9.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_9.BorderSizePixel = 0
-Bar_9.Position = UDim2.new(0.111497514, 0, 0, 0)
-Bar_9.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_9.Visible = false
-
-Bar_10.Name = "Bar"
-Bar_10.Parent = BarBG
-Bar_10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_10.BorderSizePixel = 0
-Bar_10.Position = UDim2.new(0.780482531, 0, 0, 0)
-Bar_10.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_10.Visible = false
-
-Bar_11.Name = "Bar"
-Bar_11.Parent = BarBG
-Bar_11.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_11.BorderSizePixel = 0
-Bar_11.Position = UDim2.new(0.668985009, 0, 0, 0)
-Bar_11.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_11.Visible = false
-
-Bar_12.Name = "Bar"
-Bar_12.Parent = BarBG
-Bar_12.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_12.BorderSizePixel = 0
-Bar_12.Position = UDim2.new(0.557487547, 0, 0, 0)
-Bar_12.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_12.Visible = false
-
-Bar_13.Name = "Bar"
-Bar_13.Parent = BarBG
-Bar_13.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_13.BorderSizePixel = 0
-Bar_13.Position = UDim2.new(0.613236248, 0, 0, 0)
-Bar_13.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_13.Visible = false
-
-Bar_14.Name = "Bar"
-Bar_14.Parent = BarBG
-Bar_14.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_14.BorderSizePixel = 0
-Bar_14.Position = UDim2.new(0.501738787, 0, 0, 0)
-Bar_14.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_14.Visible = false
-
-Bar_15.Name = "Bar"
-Bar_15.Parent = BarBG
-Bar_15.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_15.BorderSizePixel = 0
-Bar_15.Position = UDim2.new(0.724733829, 0, 0, 0)
-Bar_15.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_15.Visible = false
-
-Bar_16.Name = "Bar"
-Bar_16.Parent = BarBG
-Bar_16.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_16.BorderSizePixel = 0
-Bar_16.Position = UDim2.new(0.891980052, 0, 0, 0)
-Bar_16.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_16.Visible = false
-
-Bar_17.Name = "Bar"
-Bar_17.Parent = BarBG
-Bar_17.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_17.BorderSizePixel = 0
-Bar_17.Position = UDim2.new(0.836231291, 0, 0, 0)
-Bar_17.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_17.Visible = false
-
-Bar_18.Name = "Bar"
-Bar_18.Parent = BarBG
-Bar_18.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Bar_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Bar_18.BorderSizePixel = 0
-Bar_18.Position = UDim2.new(0.935340166, 0, 0, 0)
-Bar_18.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_18.Visible = false
-
-Bar_19.Name = "Bar"
-Bar_19.Parent = BarBG
-Bar_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Bar_19.BackgroundTransparency = 1.000
-Bar_19.Position = UDim2.new(0.947728753, 0, 0, 0)
-Bar_19.Size = UDim2.new(0.0612065159, 0, 0.99999994, 0)
-Bar_19.Image = "rbxassetid://3570695787"
-Bar_19.ImageColor3 = Color3.fromRGB(255, 0, 0)
-Bar_19.ScaleType = Enum.ScaleType.Slice
-Bar_19.SliceCenter = Rect.new(100, 100, 100, 100)
-Bar_19.SliceScale = 0.120
-Bar_19.Visible = false
-
 -- Scripts:
 
 local function TXFDKHD_fake_script() -- NameAbout.DO NOT DELETE 
 	local script = Instance.new('LocalScript', NameAbout)
 
 	local frame = script.Parent
-	
-	
-	
+
+
+
 	local player = game.Players.LocalPlayer
-	
-	
-	
+
+
+
 	local userId = player.UserId
-	
+
 	local thumbType = Enum.ThumbnailType.AvatarBust
-	
+
 	local thumbSize = Enum.ThumbnailSize.Size420x420
-	
+
 	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
-	
-	
-	
-	
+
+
+
+
+
 	frame.PlayerImage.Image = content
-	
+
 	frame.AboutName.Text = player.Name
-	
+
 end
 coroutine.wrap(TXFDKHD_fake_script)()
 local function WFFXTH_fake_script() -- nil. 
 	local script = Instance.new('Script', nil)
 
-	
+
 end
 coroutine.wrap(WFFXTH_fake_script)()
+local function GAXQ_fake_script() -- LoadFront.LocalScript 
+	local script = Instance.new('LocalScript', LoadFront)
+
+	-- This makes the loading bar fill up. Don't touch anything here!
+	local prog = 0
+
+	while wait() do
+		prog = prog + 2
+		script.Parent.Size = UDim2.new(prog/100, 0, 1, 0)
+		script.Parent.Parent.LoadingLabel.Text = ("Loading... " ..math.floor(prog*2).. "%")
+		if prog == 100 then
+			wait(1)
+			script.Parent.Parent.Parent:Destroy()
+		Gui.Visible = true 
+		end
+	end
+
+end
+coroutine.wrap(GAXQ_fake_script)()
+
