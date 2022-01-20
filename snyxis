@@ -7011,6 +7011,7 @@ TurnOnRtx.Text = ""
 TurnOnRtx.TextColor3 = Color3.new(0, 0, 0)
 TurnOnRtx.TextSize = 14
 TurnOnRtx.MouseButton1Down:connect(function()
+AREUSURE.Visible = false
 	RTX.MouseButton1Down:connect(function()
 		-- Script made by Harryboharps
 		-- Shoutout to Claude
