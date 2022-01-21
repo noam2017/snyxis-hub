@@ -6979,6 +6979,31 @@ GoToPRemium.MouseButton1Down:connect(function()
 		PremiumFrame.Visible = true
 		FastFist.Visible = true
 		FastPP.Visible = true
+        elseif AboutName.Text == "XTheDevil_Vibez09"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+           elseif AboutName.Text == "Mikachu2706"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+	   elseif AboutName.Text == "Ghost_eLoex"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+	   elseif AboutName.Text == "Kochsonsalt"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+	   elseif AboutName.Text == "xxLarsxx2009"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
 
 	end
 
@@ -7538,7 +7563,31 @@ Premiumscripts.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 		    PremiumFrame.Visible = true
 		    FastFist.Visible = true
 		    FastPP.Visible = true
-		
+	   elseif AboutName.Text == "XTheDevil_Vibez09"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+           elseif AboutName.Text == "Mikachu2706"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+	   elseif AboutName.Text == "Ghost_eLoex"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+	   elseif AboutName.Text == "Kochsonsalt"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+	   elseif AboutName.Text == "xxLarsxx2009"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
 		end
 
 	end)
