@@ -6743,6 +6743,11 @@ GoToPRemium.MouseButton1Down:connect(function()
 		PremiumFrame.Visible = true
 		FastFist.Visible = true
 		FastPP.Visible = true
+	elseif AboutName.Text == "wotanz"  then
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = tru
 	elseif AboutName.Text == "Smaragd007"  then
 		PayFor50Rbx.Visible = false
 		PremiumFrame.Visible = true
