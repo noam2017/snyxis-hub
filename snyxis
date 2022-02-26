@@ -152,7 +152,7 @@ OpenButton.MouseButton1Down:connect(function()
 	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
 		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
 		end
-		end)
+		
 end)
 
 OpenButton_Roundify_12px.Name = "OpenButton_Roundify_12px"
