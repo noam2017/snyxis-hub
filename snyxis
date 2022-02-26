@@ -149,6 +149,8 @@ OpenButton.TextColor3 = Color3.new(0, 0, 0)
 OpenButton.TextSize = 14
 OpenButton.MouseButton1Down:connect(function()
 	Gui.Visible = true 
+	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
+		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
 end)
 
 OpenButton_Roundify_12px.Name = "OpenButton_Roundify_12px"
