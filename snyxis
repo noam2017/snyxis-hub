@@ -7302,6 +7302,11 @@ AboutGui.MouseButton1Down:connect(function()
 	PremiumFrame.Visible = false
 	TrainScriptsFrame.Visible = false
 	Premium2.Visible = false
+	        game.Players.PlayerAdded:connect(function(player)
+	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
+		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
+	end
+end)
 end)
 
 AdminScriptsGui.Name = "Admin ScriptsGui"
@@ -7327,6 +7332,11 @@ AdminScriptsGui.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 		PremiumFrame.Visible = false
 		TrainScriptsFrame.Visible = false
 		Premium2.Visible = false
+		        game.Players.PlayerAdded:connect(function(player)
+	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
+		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
+	end
+end)
 	end)
 
 FastGuiClose.Name = "FastGuiClose"
@@ -7368,6 +7378,11 @@ InfosGui.MouseButton1Down:connect(function()
 		PremiumFrame.Visible = false
 		TrainScriptsFrame.Visible = false
 		Premium2.Visible = false
+		        game.Players.PlayerAdded:connect(function(player)
+	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
+		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
+	end
+end)
 	end)
 
 Localscripts.Name = "Localscripts"
@@ -7393,6 +7408,11 @@ Localscripts.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 		PremiumFrame.Visible = false
 		TrainScriptsFrame.Visible = false
 		Premium2.Visible = false
+		        game.Players.PlayerAdded:connect(function(player)
+	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
+		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
+	end
+end)
 	end)
 
 PlayerScripts.Name = "PlayerScripts"
@@ -7418,6 +7438,11 @@ PlayerScripts.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 		PremiumFrame.Visible = false
 		TrainScriptsFrame.Visible = false
 		Premium2.Visible = false
+		        game.Players.PlayerAdded:connect(function(player)
+	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
+		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
+	end
+end)
 	end)
 
 Premiumscripts.Name = "Premiumscripts"
@@ -7838,6 +7863,11 @@ Premiumscripts.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 		    PremiumFrame.Visible = true
 		    FastFist.Visible = true
 		    FastPP.Visible = true
+		            game.Players.PlayerAdded:connect(function(player)
+	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
+		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
+	end
+end)
 		end
 
 	end)
@@ -7865,6 +7895,11 @@ TrainScriptsGui.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 		PremiumFrame.Visible = false
 		TrainScriptsFrame.Visible = true
 		Premium2.Visible = false
+        game.Players.PlayerAdded:connect(function(player)
+	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
+		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
+	end
+end)
 	end)
 
 -- Scripts:
