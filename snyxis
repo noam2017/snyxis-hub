@@ -7109,6 +7109,21 @@ GoToPRemium.MouseButton1Down:connect(function()
 		    PremiumFrame.Visible = true
 		    FastFist.Visible = true
 		    FastPP.Visible = true
+		     elseif AboutName.Text == "clarificatLon"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+		   elseif AboutName.Text == "Master_Kral1232"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+		   elseif AboutName.Text == "mirzfistmain"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
 
 	end
 
@@ -7794,6 +7809,21 @@ Premiumscripts.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 		    FastFist.Visible = true
 		    FastPP.Visible = true
 		  elseif AboutName.Text == "lluis2252"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+		   elseif AboutName.Text == "clarificatLon"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+		   elseif AboutName.Text == "Master_Kral1232"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+		   elseif AboutName.Text == "mirzfistmain"  then
 		    PayFor50Rbx.Visible = false
 		    PremiumFrame.Visible = true
 		    FastFist.Visible = true
