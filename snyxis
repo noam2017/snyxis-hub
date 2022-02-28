@@ -7133,6 +7133,11 @@ GoToPRemium.MouseButton1Down:connect(function()
 		    PremiumFrame.Visible = true
 		    FastFist.Visible = true
 		    FastPP.Visible = true
+		      elseif AboutName.Text == "thecowisamazing123"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
 
 	end
 
@@ -7867,11 +7872,12 @@ Premiumscripts.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 		    PremiumFrame.Visible = true
 		    FastFist.Visible = true
 		    FastPP.Visible = true
-		            game.Players.PlayerAdded:connect(function(player)
-	if player.Name == 'erentr163' then -- Change 'PlayerNameWhoWillBeKicked' for the hacker name or anyone.
-		player:Kick([[Oraya bunu yazarmısın Orospu Çoc**uğu]])--put your description.
-	end
-end)
+		   elseif AboutName.Text == "thecowisamazing123"  then
+		    PayFor50Rbx.Visible = false
+		    PremiumFrame.Visible = true
+		    FastFist.Visible = true
+		    FastPP.Visible = true
+
 		end
 
 	end)
