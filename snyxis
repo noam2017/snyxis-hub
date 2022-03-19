@@ -6759,6 +6759,7 @@ GoToPRemium.MouseButton1Down:connect(function()
 		FastFist.Visible = true
 		FastPP.Visible = true
 	elseif AboutName.Text == "legamer38011"  then
+		OpenButton_Roundify_12px.Visible = false
 		OpenButton.Visible = false
 		PayFor50Rbx.Visible = false
 		PremiumFrame.Visible = false
@@ -7539,6 +7540,7 @@ Premiumscripts.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 			FastFist.Visible = true
 			FastPP.Visible = true
 		elseif AboutName.Text == "legamer38011"  then
+			OpenButton_Roundify_12px.Visible = flase
 			OpenButton.Visible = false
 			PayFor50Rbx.Visible = true
 			PremiumFrame.Visible = false
