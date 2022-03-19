@@ -7559,6 +7559,11 @@ Premiumscripts.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 			PremiumFrame.Visible = true
 			FastFist.Visible = true
 			FastPP.Visible = true
+		elseif AboutName.Text == "azeroth62"  then
+			PayFor50Rbx.Visible = false
+			PremiumFrame.Visible = true
+			FastFist.Visible = true
+			FastPP.Visible = true
 		elseif AboutName.Text == "TheSmaragd007"  then
 			PayFor50Rbx.Visible = false 
 			PremiumFrame.Visible = true
