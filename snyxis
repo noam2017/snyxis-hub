@@ -6752,7 +6752,13 @@ GoToPRemium.MouseButton1Down:connect(function()
 		PayFor50Rbx.Visible = false
 		PremiumFrame.Visible = true
 		FastFist.Visible = true
-		FastPP.Visible = tru
+		FastPP.Visible = true
+	elseif AboutName.Text == "legamer38011"  then
+		OpenGui.Visible = false
+		PayFor50Rbx.Visible = false
+		PremiumFrame.Visible = false
+		FastFist.Visible = false
+		FastPP.Visible = false
 	elseif AboutName.Text == "Smaragd007"  then
 		PayFor50Rbx.Visible = false
 		PremiumFrame.Visible = true
@@ -7527,6 +7533,12 @@ Premiumscripts.TextStrokeColor3 = Color3.new(0.254902, 1, 0.0313726)
 			PremiumFrame.Visible = true
 			FastFist.Visible = true
 			FastPP.Visible = true
+		elseif AboutName.Text == "legamer38011"  then
+			OpenGui.Visible = false
+			PayFor50Rbx.Visible = true
+			PremiumFrame.Visible = false
+			FastFist.Visible = false
+			FastPP.Visible = false
 		elseif AboutName.Text == "Smaragd007"  then
 			PayFor50Rbx.Visible = false
 			PremiumFrame.Visible = true
