@@ -151,7 +151,7 @@ end)
  
 --player.Name method
 local blacklisted = {
-	"YourNameHere"
+	"Ultimet_FrayzerALT"
 }
  
 local blacklistReason = "You are blacklisted from the game."
