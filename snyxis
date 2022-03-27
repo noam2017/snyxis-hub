@@ -136,34 +136,31 @@ local InfosGui_Roundify_12px = Instance.new("ImageLabel")
 local InfosGui = Instance.new("TextButton")
 local Roundify_9 = Instance.new("ImageLabel")
 local blacklisted = {
-	"837105798"
+	{
+		UserId  = 837105798,
+		Reason = "test"
+	}
 }
- 
-local blacklistReason = "You are blacklisted from the game."
- 
-game.Players.PlayerAdded:Connect(function(player)
-	for i,v in pairs(blacklisted) do
-		if v == player.UserId then
-			player:Kick(blacklistReason)
-		end
-	end
-end)
- 
---player.Name method
-local blacklisted = {
-	"Ultimet_FrayzerALT"
-}
- 
-local blacklistReason = "You are blacklisted from the game."
- 
-game.Players.PlayerAdded:Connect(function(player)
-	for i,v in pairs(blacklisted) do
-		if v == player.Name then
-			player:Kick(blacklistReason)
-		end
-	end
-end)
 
+print("This obviously works")
+
+game.Players.PlayerAdded:Connect(function(player)
+    print(player)
+	for i,v in pairs(blacklisted) do
+        local Check = table.find(blacklisted[i][UserId], player.UserId)
+
+        print(Check)
+		if Check then
+			player:Kick([[
+			User is blacklisted.
+			
+			Reason:]]
+			..blacklisted[i]["Reason"])
+        else
+            warn("Blacklisted player not found")
+		end
+	end
+end)
 --Properties:
 
 SxHUBV7.Name = "SxHUB V7"
