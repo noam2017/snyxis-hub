@@ -7397,20 +7397,6 @@ Premiumscripts.MouseButton1Down:connect(function()
 			PremiumFrame.Visible = true
 			TrainScriptsFrame.Visible = false
 			Premium2.Visible = false
-		elseif AboutName.Text == "azeroth62"  then
-			PayFor50Rbx.Visible = true
-			PremiumFrame.Visible = false
-			FastFist.Visible = false
-			Fastpp.Visible = false
-			AboutFrame.Visible = false
-			AdminFrame.Visible = false
-			InfosFrame.Visible = false
-			LocalScriptsFrame.Visible = false
-			Logo.Visible = false
-			PlayerFrame.Visible = false
-			PremiumFrame.Visible = true
-			TrainScriptsFrame.Visible = false
-			Premium2.Visible = false
 		elseif AboutName.Text == "wotanz"  then
 			PayFor50Rbx.Visible = false
 			PremiumFrame.Visible = true
