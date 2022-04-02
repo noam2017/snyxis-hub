@@ -156,7 +156,7 @@ end
 
 
 game:GetService("Players").PlayerAdded:Connect(function(whojoined)
-	PlayerJoined(" "..whojoined.Name.."joined the serve")
+	PlayerJoined(" "..whojoined.Name.." joined the server")
 end)
 
 game:GetService("Players").PlayerRemoving:Connect(function(wholeft)
