@@ -139,7 +139,7 @@ function PlayerJoined(text)
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
 		Text = text;
 		Color = Color3.fromRGB(0, 255, 26);
-		Font = Enum.Font.SciFi;
+		Font = Enum.Font.Oswald;
 		TextSize = 20
 	})
 end
@@ -149,7 +149,7 @@ function PlayerLeft(text)
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
 		Text = text;
 		Color = Color3.fromRGB(255, 0, 0);
-		Font = Enum.Font.SciFi;
+		Font = Enum.Font.Oswald;
 		TextSize = 20
 	})
 end
