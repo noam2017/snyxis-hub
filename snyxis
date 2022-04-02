@@ -135,6 +135,33 @@ local PlayerScripts = Instance.new("TextButton")
 local InfosGui_Roundify_12px = Instance.new("ImageLabel")
 local InfosGui = Instance.new("TextButton")
 local Roundify_9 = Instance.new("ImageLabel")
+function PlayerJoined(text)
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
+		Text = text;
+		Color = Color3.fromRGB(0, 255, 26);
+		Font = Enum.Font.SciFi;
+		TextSize = 20
+	})
+end
+
+
+function PlayerLeft(text)
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
+		Text = text;
+		Color = Color3.fromRGB(255, 0, 0);
+		Font = Enum.Font.SciFi;
+		TextSize = 20
+	})
+end
+
+
+game:GetService("Players").PlayerAdded:Connect(function(whojoined)
+	PlayerJoined(" "..whojoined.Name.."joined the serve")
+end)
+
+game:GetService("Players").PlayerRemoving:Connect(function(wholeft)
+	PlayerLeft(" "..wholeft.Name.." left The Server")
+end)
 local blacklisted = {
 	{
 		UserId  = 837105798,
