@@ -140,7 +140,7 @@ function PlayerJoined(text)
 		Text = text;
 		Color = Color3.fromRGB(0, 255, 26);
 		Font = Enum.Font.Oswald;
-		TextSize = 20
+		TextSize = 31
 	})
 end
 
@@ -150,7 +150,7 @@ function PlayerLeft(text)
 		Text = text;
 		Color = Color3.fromRGB(255, 0, 0);
 		Font = Enum.Font.Oswald;
-		TextSize = 20
+		TextSize = 31
 	})
 end
 
