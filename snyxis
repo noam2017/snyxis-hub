@@ -8802,7 +8802,7 @@ Premiumscripts.MouseButton1Down:connect(function()
 			PremiumFrame.Visible = true
 			TrainScriptsFrame.Visible = false
 			Premium2.Visible = false
-		elseif AboutName.Text == " lindadobai"  then
+		elseif AboutName.Text == "lindadobai"  then
 			PayFor50Rbx.Visible = false
 			PremiumFrame.Visible = true
 			FastFist.Visible = true
