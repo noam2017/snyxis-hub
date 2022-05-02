@@ -8872,6 +8872,34 @@ Premiumscripts.MouseButton1Down:connect(function()
 			PremiumFrame.Visible = true
 			TrainScriptsFrame.Visible = false
 			Premium2.Visible = false
+		elseif AboutName.Text == "ItzFedidoz"  then
+			PayFor50Rbx.Visible = false
+			PremiumFrame.Visible = true
+			FastFist.Visible = true
+			Fastpp.Visible = true
+			AboutFrame.Visible = false
+			AdminFrame.Visible = false
+			InfosFrame.Visible = false
+			LocalScriptsFrame.Visible = false
+			Logo.Visible = false
+			PlayerFrame.Visible = false
+			PremiumFrame.Visible = true
+			TrainScriptsFrame.Visible = false
+			Premium2.Visible = false
+		elseif AboutName.Text == "fedidoparasempre"  then
+			PayFor50Rbx.Visible = false
+			PremiumFrame.Visible = true
+			FastFist.Visible = true
+			Fastpp.Visible = true
+			AboutFrame.Visible = false
+			AdminFrame.Visible = false
+			InfosFrame.Visible = false
+			LocalScriptsFrame.Visible = false
+			Logo.Visible = false
+			PlayerFrame.Visible = false
+			PremiumFrame.Visible = true
+			TrainScriptsFrame.Visible = false
+			Premium2.Visible = false
 
 		end
 		
