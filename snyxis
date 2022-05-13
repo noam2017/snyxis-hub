@@ -161,6 +161,8 @@ game:GetService("Players").PlayerAdded:Connect(function(whojoined)
 		PlayerJoined(" "..whojoined.Name.." Owner joined the server")
 		elseif whojoined.Name == "Ultimet_FrayzerALT" then
 		PlayerJoined(" "..whojoined.Name.." Owner joined the server")
+		elseif whojoined.Name == "slt51perohackeado" then
+		PlayerJoined(" "..whojoined.Name.." Akari joined the server")
 		
 		
 	end
@@ -173,7 +175,10 @@ game:GetService("Players").PlayerRemoving:Connect(function(wholeft)
 		PlayerJoined(" "..wholeft.Name.." Owner left the server")
 	elseif wholeft.Name == "Ultimet_FrayzerALT" then
 		PlayerJoined(" "..wholeft.Name.." Owner left the server")
+	elseif wholeft.Name == "slt51perohackeado2" then
+		PlayerJoined(" "..wholeft.Name.." Akari left the server")
 		end
+	
 end)
 local blacklisted = {
 	{
